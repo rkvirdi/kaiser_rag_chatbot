@@ -1,0 +1,5987 @@
+{
+  "plans": [
+    {
+      "plan_id": "PPO_BASIC",
+      "plan_name": "PPO Basic",
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "coinsurance": {
+        "imaging": 0.2,
+        "procedures": 0.25,
+        "diagnostics": 0.2,
+        "infusion": 0.3
+      },
+      "deductible": {
+        "individual": 1500,
+        "family": 3000
+      },
+      "oop_max": {
+        "individual": 6500,
+        "family": 13000
+      },
+      "covered_procedures": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ]
+    },
+    {
+      "plan_id": "PPO_PLUS",
+      "plan_name": "PPO Plus",
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "coinsurance": {
+        "imaging": 0.15,
+        "procedures": 0.2,
+        "diagnostics": 0.15,
+        "infusion": 0.25
+      },
+      "deductible": {
+        "individual": 1000,
+        "family": 2000
+      },
+      "oop_max": {
+        "individual": 5000,
+        "family": 10000
+      },
+      "covered_procedures": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ]
+    },
+    {
+      "plan_id": "HMO_SILVER",
+      "plan_name": "HMO Silver",
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "coinsurance": {
+        "imaging": 0.1,
+        "procedures": 0.2,
+        "diagnostics": 0.1,
+        "infusion": 0.2
+      },
+      "deductible": {
+        "individual": 750,
+        "family": 1500
+      },
+      "oop_max": {
+        "individual": 4500,
+        "family": 9000
+      },
+      "covered_procedures": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ]
+    },
+    {
+      "plan_id": "HDHP_GOLD",
+      "plan_name": "HDHP Gold (HSA Eligible)",
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "coinsurance": {
+        "imaging": 0.2,
+        "procedures": 0.2,
+        "diagnostics": 0.2,
+        "infusion": 0.2
+      },
+      "deductible": {
+        "individual": 3000,
+        "family": 6000
+      },
+      "oop_max": {
+        "individual": 6000,
+        "family": 12000
+      },
+      "covered_procedures": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "notes": "Member pays negotiated rate until deductible met; then coinsurance applies."
+    },
+    {
+      "plan_id": "EPO_CORE",
+      "plan_name": "EPO Core",
+      "copay_schedule": {
+        "primary_care": 30,
+        "specialist": 55,
+        "urgent_care": 70,
+        "er": 325,
+        "telehealth": 15,
+        "rx_tier1": 12,
+        "rx_tier2": 35,
+        "rx_tier3": 70,
+        "imaging": 0,
+        "lab": 0
+      },
+      "coinsurance": {
+        "imaging": 0.2,
+        "procedures": 0.25,
+        "diagnostics": 0.2,
+        "infusion": 0.3
+      },
+      "deductible": {
+        "individual": 1250,
+        "family": 2500
+      },
+      "oop_max": {
+        "individual": 5500,
+        "family": 11000
+      },
+      "covered_procedures": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ]
+    },
+    {
+      "plan_id": "MEDICARE_ADV",
+      "plan_name": "Medicare Advantage (Mock)",
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "coinsurance": {
+        "imaging": 0.1,
+        "procedures": 0.15,
+        "diagnostics": 0.1,
+        "infusion": 0.2
+      },
+      "deductible": {
+        "individual": 0,
+        "family": 0
+      },
+      "oop_max": {
+        "individual": 3500,
+        "family": 7000
+      },
+      "covered_procedures": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ]
+    }
+  ],
+  "procedure_catalog": [
+    {
+      "code": "99213",
+      "name": "Office/outpatient visit, established patient",
+      "category": "Primary Care",
+      "typical_patient_responsibility": "copay"
+    },
+    {
+      "code": "99214",
+      "name": "Office/outpatient visit, established patient (moderate)",
+      "category": "Primary Care",
+      "typical_patient_responsibility": "copay"
+    },
+    {
+      "code": "93000",
+      "name": "Electrocardiogram, routine ECG",
+      "category": "Diagnostics",
+      "typical_patient_responsibility": "coinsurance"
+    },
+    {
+      "code": "80053",
+      "name": "Comprehensive metabolic panel",
+      "category": "Lab",
+      "typical_patient_responsibility": "copay_or_coinsurance"
+    },
+    {
+      "code": "80061",
+      "name": "Lipid panel",
+      "category": "Lab",
+      "typical_patient_responsibility": "copay_or_coinsurance"
+    },
+    {
+      "code": "85025",
+      "name": "Complete blood count (CBC)",
+      "category": "Lab",
+      "typical_patient_responsibility": "copay_or_coinsurance"
+    },
+    {
+      "code": "71046",
+      "name": "Chest X-ray, 2 views",
+      "category": "Imaging",
+      "typical_patient_responsibility": "coinsurance"
+    },
+    {
+      "code": "73502",
+      "name": "X-ray, hip",
+      "category": "Imaging",
+      "typical_patient_responsibility": "coinsurance"
+    },
+    {
+      "code": "36415",
+      "name": "Venipuncture",
+      "category": "Lab",
+      "typical_patient_responsibility": "included"
+    },
+    {
+      "code": "90715",
+      "name": "Tdap vaccine",
+      "category": "Preventive",
+      "typical_patient_responsibility": "no_cost_share_if_preventive"
+    },
+    {
+      "code": "90686",
+      "name": "Influenza vaccine",
+      "category": "Preventive",
+      "typical_patient_responsibility": "no_cost_share_if_preventive"
+    },
+    {
+      "code": "77067",
+      "name": "Screening mammography",
+      "category": "Preventive",
+      "typical_patient_responsibility": "no_cost_share_if_preventive"
+    },
+    {
+      "code": "45378",
+      "name": "Diagnostic colonoscopy",
+      "category": "Procedures",
+      "typical_patient_responsibility": "coinsurance"
+    },
+    {
+      "code": "93010",
+      "name": "ECG interpretation/report only",
+      "category": "Diagnostics",
+      "typical_patient_responsibility": "coinsurance"
+    },
+    {
+      "code": "G0402",
+      "name": "Welcome to Medicare preventive visit",
+      "category": "Preventive",
+      "typical_patient_responsibility": "no_cost_share_if_preventive"
+    },
+    {
+      "code": "J3490",
+      "name": "Unclassified drugs (HCPCS)",
+      "category": "Pharmacy/Infusion",
+      "typical_patient_responsibility": "coinsurance"
+    },
+    {
+      "code": "A0425",
+      "name": "Ambulance service, mileage",
+      "category": "Emergency",
+      "typical_patient_responsibility": "copay_or_coinsurance"
+    },
+    {
+      "code": "A0429",
+      "name": "Ambulance service, basic life support",
+      "category": "Emergency",
+      "typical_patient_responsibility": "copay_or_coinsurance"
+    },
+    {
+      "code": "99284",
+      "name": "Emergency department visit",
+      "category": "Emergency",
+      "typical_patient_responsibility": "copay"
+    },
+    {
+      "code": "99203",
+      "name": "Office/outpatient visit, new patient",
+      "category": "Primary Care",
+      "typical_patient_responsibility": "copay"
+    }
+  ],
+  "members": [
+    {
+      "member_id": "MBR022768040",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2024-07-15",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "b3bd6de3-e57b-4a86-b41c-5fd9e1c944be",
+          "visit_date": "2025-05-15",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMJBQE7CKW5N",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "8c3f2c01-f8e7-4205-90a5-bddf9248a39a",
+          "visit_date": "2021-11-24",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMHV3A3ZMF8M",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR067988348",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2024-11-06",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "7760032f-cfe7-43aa-97bc-68e5654dbdf5",
+          "visit_date": "2025-11-23",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLM81SDW4SHNF",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "23899b02-81eb-48ac-9fab-e1f2a8a7421f",
+          "visit_date": "2025-09-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMH75LXO6QJI",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "10799f72-4241-40e6-ba78-b06e44697b49",
+          "visit_date": "2024-06-09",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMOH9SDBDW2P",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4bef8b76-9d3a-4367-b510-0fc7c7712f51",
+          "visit_date": "2023-10-10",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMJT7YE511MK",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "82a8a5f6-87b4-4f1e-9d6a-7b9dec2f7570",
+          "visit_date": "2021-12-23",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMWTIQJ7YHL1",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR995413982",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2024-05-30",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "17bfe386-573f-401c-856e-9c8301259611",
+          "visit_date": "2025-07-14",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMSKRT05UIRO",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "f95dda41-0638-4d84-ba31-957dd3c058d5",
+          "visit_date": "2024-03-01",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMN6QICATVAZ",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "09c023c6-ea08-400c-b170-593c2686e6a2",
+          "visit_date": "2023-03-10",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLM1ERTJ5PHT0",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR634806607",
+      "plan_id": "PPO_BASIC",
+      "coverage_effective": {
+        "start_date": "2025-02-24",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "a51d36b8-a83c-4061-b44e-d2419482ff88",
+          "visit_date": "2025-02-15",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMI7P5TB9487",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c5258ffa-3295-4019-8ecd-2b592eedfc39",
+          "visit_date": "2024-12-24",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM56FAO72KZ0",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "ad6f520b-981a-4573-aa70-9d08e2b7b4af",
+          "visit_date": "2024-11-14",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM5O7UUBCXUL",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "48654173-2aef-483b-9303-dad2bb2d8b39",
+          "visit_date": "2022-03-15",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMHC0CLBR7TC",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "02d4aab7-c3c7-422d-ad73-896263297f83",
+          "visit_date": "2022-02-27",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMOYKL1CQ99C",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR298831876",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2022-10-18",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "4ec868fc-4e2a-4bb3-a2ec-88c61693de75",
+          "visit_date": "2025-08-17",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMBME9FPZUE8",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "ba4af3a6-2a39-4857-9307-c9ecc199aab1",
+          "visit_date": "2025-01-28",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMUFEL6246HI",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2a79fee0-d504-430a-9718-e6e0ca5aa8a2",
+          "visit_date": "2024-11-02",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMY6WKTAKPUX",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e0cbf0cb-aa1c-4138-b7cb-a9394e07f74e",
+          "visit_date": "2024-07-09",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMD54I3QK2IA",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "f72cfe6d-8acf-48b5-a9d4-b7fd05b2ef2f",
+          "visit_date": "2024-01-27",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMMSY4LA5JU9",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d3bb0f4c-7278-41e1-9f47-5d78ad1a0ebb",
+          "visit_date": "2023-06-08",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM280XKXWD8I",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c6edb578-10c3-4f44-8195-afcdd0c564b4",
+          "visit_date": "2022-10-10",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMF75935A0L7",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "e26080bc-2d08-4665-9d38-e47f845252fe",
+          "visit_date": "2022-07-27",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMP9E6GBPS3Y",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0e35f65f-8abc-4183-bc21-b813752f0f31",
+          "visit_date": "2022-03-12",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMJ60FKHMY4S",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "6fff26b7-23c4-49f8-a84d-7f1a022e0a4c",
+          "visit_date": "2022-02-25",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM87WXE6SYLZ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR810967485",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2023-08-11",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "1eaded7e-6392-4b0f-bc05-62b2e7c17cae",
+          "visit_date": "2024-01-22",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMHP6VZ41NAM",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "b03f7bd0-4e9c-41d8-ae5d-df9d666c7ffe",
+          "visit_date": "2023-07-25",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMPBMYOFQEWA",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "fd1d36d1-8fed-4111-abd1-4e12964a2dc8",
+          "visit_date": "2022-12-28",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMPZIM6CFNFH",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2a76e431-f68d-400c-b724-98373b5c56a4",
+          "visit_date": "2022-10-12",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMWZS3T60RJI",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0242d8cb-cf81-477f-9bd9-49400b9c8e33",
+          "visit_date": "2022-01-21",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM2H2ZQU7EEQ",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR506140323",
+      "plan_id": "HMO_SILVER",
+      "coverage_effective": {
+        "start_date": "2023-08-21",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "f28b6f96-21d9-4b5f-950d-08a66b57c946",
+          "visit_date": "2025-06-15",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMB8IC8BBI4W",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "bca26953-ce2d-4f1e-824d-a1884d5a1161",
+          "visit_date": "2023-07-12",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMZJJEGET1GH",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "91dba68e-9491-4e39-9329-15c37d65084f",
+          "visit_date": "2023-04-05",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMQJNV8Z2FLU",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "3781b6a8-2da2-421e-be5a-ee2bccb13741",
+          "visit_date": "2022-12-04",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMSM43D8W3ZP",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d0685a70-bceb-447e-b76c-a25bb20e195a",
+          "visit_date": "2022-09-07",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMHV3IZKY22U",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "79ee157d-a983-474d-b98a-6d9e6b2d4efa",
+          "visit_date": "2022-04-07",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLM1Q3VLI7KQ1",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "34542df3-2b33-43b4-9a38-c07f197eae35",
+          "visit_date": "2022-03-02",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM4GH2M5ZJA8",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "7e64641c-6785-41af-9dee-78562c39cb83",
+          "visit_date": "2021-11-16",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMYXR2DHYLUR",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR795211210",
+      "plan_id": "HMO_SILVER",
+      "coverage_effective": {
+        "start_date": "2022-10-08",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "28af3f67-c36e-42a4-bed9-4f076852f402",
+          "visit_date": "2025-07-19",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMWBFUK9E1V2",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "716705aa-ce88-49eb-997d-26801db45dd4",
+          "visit_date": "2022-10-23",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMW1DAKRM8J5",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR544893667",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2024-08-06",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "9ab875a6-2153-4d3e-a50c-62688b6ea594",
+          "visit_date": "2025-03-20",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMOJTPV60VAI",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "60fc5270-b05e-4866-b98f-4c6b926e7f47",
+          "visit_date": "2025-01-12",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMFOYQBKK4CI",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "f6d1de7d-4769-41cf-9edd-a8f112fa752c",
+          "visit_date": "2023-08-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMXTOGN1W1HT",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "1c40133c-da0a-4890-8c3f-f4ddc1ebfed0",
+          "visit_date": "2023-04-12",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMY4LYK83TQL",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "9a7ac784-33e8-4b53-929d-ac026adcdacc",
+          "visit_date": "2022-09-08",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM3U1GSPK9P3",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "04f216e4-60ec-42e3-b8a8-2bece691ca84",
+          "visit_date": "2022-05-29",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMPTX63CFL0U",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR461962155",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2025-03-29",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "d2493e88-5f42-423b-a3f8-0e8609634454",
+          "visit_date": "2025-04-03",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM7KZORQQFGV",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0516b668-1d1f-4a1a-b0cb-09803d72365c",
+          "visit_date": "2025-02-23",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMM2JA04UX5Q",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "88ebdecb-1207-453f-b192-d63c6506dda3",
+          "visit_date": "2024-01-19",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMQLGZUI1B0Z",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR368940558",
+      "plan_id": "EPO_CORE",
+      "coverage_effective": {
+        "start_date": "2023-04-18",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 30,
+        "specialist": 55,
+        "urgent_care": 70,
+        "er": 325,
+        "telehealth": 15,
+        "rx_tier1": 12,
+        "rx_tier2": 35,
+        "rx_tier3": 70,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "51cc2cfa-2c27-4e48-950b-48d1b284c775",
+          "visit_date": "2025-10-01",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMKNFTU2GC5W",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d3205ff7-25b1-4130-81c8-faaa8dc51423",
+          "visit_date": "2025-02-07",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMC2JWOCLYT8",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "8f0b8af6-0af4-4eb5-91e7-26bd3062a328",
+          "visit_date": "2023-11-11",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLM3J3R30ME8F",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "69586e9e-6cd6-4c53-bcf0-1e936895bc48",
+          "visit_date": "2023-07-15",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMHNRIUU9K9X",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "898350d1-61de-47c4-b98d-2d6570feedb9",
+          "visit_date": "2023-03-06",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMIYKID91ZDF",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "348428c4-1642-416e-9cbf-0e184df46b19",
+          "visit_date": "2022-09-27",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM60361I2HGJ",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "08f79113-187c-4ee3-902a-5f7f180c773f",
+          "visit_date": "2022-08-23",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMJJA26YFPMV",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "a2f494ed-d948-47cd-95fa-9294a09e8c80",
+          "visit_date": "2022-03-20",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMXLPU0DK0GE",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "7dfe195f-bd69-43a5-8eeb-ae5f67affa15",
+          "visit_date": "2022-02-13",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMN2ATQYYV37",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR208592089",
+      "plan_id": "PPO_BASIC",
+      "coverage_effective": {
+        "start_date": "2024-01-26",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "400846f4-bd82-4c3a-accc-2628761a94b0",
+          "visit_date": "2025-09-14",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMD5EQY08P0F",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "95e2d7d1-5a9b-4ea5-a696-d1f674b1e362",
+          "visit_date": "2025-05-11",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMBNP84DYT9M",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "6911ce50-27bc-46d6-a61f-3b59b204c567",
+          "visit_date": "2024-11-06",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMDHX8BM92H3",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR582775299",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2022-09-25",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "f5be7667-a0ae-45dd-8366-241f7c19e662",
+          "visit_date": "2025-10-08",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMVAJEPECQNV",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d72edb68-1938-4020-814e-94d8cf20c5e7",
+          "visit_date": "2024-09-02",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMSQ8CROYR6C",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "13409194-2c12-4b09-949c-ae88eaa4db29",
+          "visit_date": "2022-10-27",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMQIMQODPXNF",
+          "claim_status": "PENDING",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "49187596-2056-453d-a53b-797304c42baf",
+          "visit_date": "2022-07-03",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMWVZNVKSP2E",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR080078555",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2023-11-30",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "b068c627-aeba-4444-aa6e-8eb861a3ca77",
+          "visit_date": "2024-06-24",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMRPETIUYMO0",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "b804926e-b25e-45f5-afe4-95608b6a4890",
+          "visit_date": "2024-05-08",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM493WXA73JG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "6ce91e05-01e9-4cb1-bb59-ab4be0e7deea",
+          "visit_date": "2024-03-07",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM5UOFWB0HPM",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "3770be57-4e04-4f0a-9500-8fda38ecddaa",
+          "visit_date": "2023-06-19",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMOC50H2CWTG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "7436e291-0722-4bf8-a420-bd56093ab607",
+          "visit_date": "2023-05-03",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMPOXKO8G8QY",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e6958c46-9c45-4ddb-88eb-e8495fe37c5d",
+          "visit_date": "2023-01-15",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMKYRYBOVAKH",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "9dcab8df-873f-4d93-994c-f1b65ddc3588",
+          "visit_date": "2022-03-08",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMBKLDSFR4MU",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "201bc9c6-3b72-43e1-ba6d-8a51d455c27c",
+          "visit_date": "2021-11-13",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMV5F1BCPPVO",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR396112117",
+      "plan_id": "EPO_CORE",
+      "coverage_effective": {
+        "start_date": "2025-05-04",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 30,
+        "specialist": 55,
+        "urgent_care": 70,
+        "er": 325,
+        "telehealth": 15,
+        "rx_tier1": 12,
+        "rx_tier2": 35,
+        "rx_tier3": 70,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "02b4b3df-d209-4ffa-828a-d5cbfbba5dfb",
+          "visit_date": "2025-07-01",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMC3C54WSQT2",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4bb6a3e8-541b-4db6-8b9b-6ddcd6334b9b",
+          "visit_date": "2025-03-13",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM96DYSAL8M1",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "debb53a6-fbd6-49c0-82aa-c80cbf582036",
+          "visit_date": "2025-02-21",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMST0SX5WVFG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2958e2ff-da22-4bb2-a4e4-c5941bc9457a",
+          "visit_date": "2024-10-28",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLM9QKNS832EJ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "59dddbfc-917d-45dc-9f21-09269b5c79d5",
+          "visit_date": "2023-06-14",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMN1YBWMLUNJ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d32edc38-e57c-40f4-b864-af73d94fdd6a",
+          "visit_date": "2023-05-23",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0425",
+          "procedure_name": "Ambulance service, mileage",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMVS8Q349DXB",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "80737486-d61d-48cc-8094-1c48be614bb0",
+          "visit_date": "2022-10-02",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMX9L8LPQW2V",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c9a936d5-ece9-41c2-95d0-8b92c98cad6e",
+          "visit_date": "2022-07-14",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMX7LXXEZDUX",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "ae6961cc-01ff-43cc-bd2a-fe276b83c1b1",
+          "visit_date": "2022-05-30",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMOYIPK0QTL3",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR851882729",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2024-12-08",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "01d72465-90c3-4e12-87d6-292302aeb50c",
+          "visit_date": "2025-09-12",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMZEZQACJ4T0",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "1b545848-8ade-4520-ba7c-53c78ce8e96c",
+          "visit_date": "2025-04-16",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMBP2QD6VASI",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0f67e14f-9ddc-4ee1-a505-c8041144a23d",
+          "visit_date": "2024-09-01",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMOONNCILDZM",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR462460905",
+      "plan_id": "PPO_BASIC",
+      "coverage_effective": {
+        "start_date": "2022-12-01",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "ccb8d9f7-1aa3-4c3e-bb1a-75254046fa44",
+          "visit_date": "2025-09-05",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMO3RBXK5BXJ",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2bde7914-697a-4a71-8a5a-4b133e21d43a",
+          "visit_date": "2025-08-04",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMN2Y8FV2BC2",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e43eb50c-8ba1-4357-84f8-59a4e73fe460",
+          "visit_date": "2024-10-14",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMATN2TWDL9Z",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "8b2cbbd0-ff38-4f35-9e00-f423a1441f02",
+          "visit_date": "2024-04-07",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMXLVPYMB5M9",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "037b3bdd-dd9d-4642-bd79-567d249180d4",
+          "visit_date": "2023-10-07",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMY8N1UTOXIE",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4ba66ed8-902d-4481-ad68-8030a354be3a",
+          "visit_date": "2023-09-22",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM9JA2M0W10L",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "dfe17b59-7bd4-4db7-9d04-b113b0764684",
+          "visit_date": "2023-06-19",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMMGYN2JCPP9",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "1e7bccc6-3582-4312-b1f7-cf681993d96e",
+          "visit_date": "2023-06-02",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMYZTKKFZZGN",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "a3730f30-346e-4cdf-b7e8-cd3c84b0949e",
+          "visit_date": "2023-02-11",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMJJQ9K6RE4Q",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "28e0a041-bc2a-48d3-8f80-7be23b4cbe3b",
+          "visit_date": "2022-11-07",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM3Y9RGEZ7BH",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR780964638",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2022-09-02",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "ca1a1e5f-e092-43c1-ae65-52c85cdd9c1b",
+          "visit_date": "2025-10-02",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM1JHUWB6TXK",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c01f520a-af02-4539-81aa-7b400366c646",
+          "visit_date": "2025-03-10",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM3SKF7I8SKC",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "a26d386e-d5cb-4ce2-b5e1-96b28d862437",
+          "visit_date": "2022-10-28",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMWDXVUGW6M7",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "376c63d0-155f-402e-ab47-9d68478576e0",
+          "visit_date": "2022-01-27",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMYFOQMF5L9M",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR751214109",
+      "plan_id": "HMO_SILVER",
+      "coverage_effective": {
+        "start_date": "2023-06-02",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "a9441a1b-7a2e-414b-94da-ae06b5c40fd0",
+          "visit_date": "2025-02-07",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMSBELRQVSLW",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "bdde8d14-ded9-48ec-a0f3-745fb98d748a",
+          "visit_date": "2023-11-18",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMS1K9YE9O2M",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "e42351b1-bcf3-4e44-b700-f8968dd09f3d",
+          "visit_date": "2023-02-20",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMYKADEJNOBB",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d12747f1-abc6-49f5-acdc-ae214cd16c8a",
+          "visit_date": "2022-09-03",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMRSRLA8S8HM",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR972385728",
+      "plan_id": "PPO_BASIC",
+      "coverage_effective": {
+        "start_date": "2023-09-12",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "1ffe654d-0eb3-413c-83f6-03966b6cdbd0",
+          "visit_date": "2023-04-09",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMHLXSLG6MM1",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "fed5ba75-5fcd-4ec9-b801-77adc556a60a",
+          "visit_date": "2022-08-22",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM5WVJX8UIBR",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "be40a2f6-59d4-416c-add4-95ed5f3518a9",
+          "visit_date": "2021-11-14",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMFYB8DALFYO",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR666125292",
+      "plan_id": "EPO_CORE",
+      "coverage_effective": {
+        "start_date": "2024-02-22",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 30,
+        "specialist": 55,
+        "urgent_care": 70,
+        "er": 325,
+        "telehealth": 15,
+        "rx_tier1": 12,
+        "rx_tier2": 35,
+        "rx_tier3": 70,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "0e6d0af0-2d59-4cba-bbc3-da22e12b52f6",
+          "visit_date": "2025-02-28",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM3L0XZAMKYG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e627eeb7-85a8-421b-845e-d53bc487edfb",
+          "visit_date": "2024-04-20",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM6DUT076G5G",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "04d92b40-ed10-43d1-b069-5a69241802ce",
+          "visit_date": "2024-04-04",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM8RQ9NZ6123",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0bad6be3-670b-4958-a90b-9852b55de8b2",
+          "visit_date": "2023-12-21",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMRHT7ZEWVIY",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e209c779-f74c-479d-ab5d-132abb17bebb",
+          "visit_date": "2023-12-16",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMJEYN9382KK",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "6ef28621-d431-48c9-a12c-81a02bb79211",
+          "visit_date": "2023-09-08",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0429",
+          "procedure_name": "Ambulance service, basic life support",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM875AUD9K9T",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "ee0c83a9-5ce6-4874-a72a-925b7e72982d",
+          "visit_date": "2022-08-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMXYCELOS6ZL",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "959b3230-b9ab-44cb-839b-25b89ed402e0",
+          "visit_date": "2022-05-03",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMLRYE89FX5R",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "558fc94e-5954-4aa0-a8c7-d0dad8dff93d",
+          "visit_date": "2022-05-01",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMLOD9R7ANQJ",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR657553918",
+      "plan_id": "EPO_CORE",
+      "coverage_effective": {
+        "start_date": "2022-12-05",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 30,
+        "specialist": 55,
+        "urgent_care": 70,
+        "er": 325,
+        "telehealth": 15,
+        "rx_tier1": 12,
+        "rx_tier2": 35,
+        "rx_tier3": 70,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "66f58429-be4c-434c-afb8-841a8ca7471f",
+          "visit_date": "2025-08-22",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMPT11F9I6UU",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0c95cc05-2981-4ed6-8c77-664cec1129af",
+          "visit_date": "2025-04-01",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMT0IAAKYTT3",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "997dcc3c-a5c5-4639-9d19-6baf33566613",
+          "visit_date": "2025-02-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM8N6Q7NC85E",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "abf8705a-2918-4f1e-9373-76a79672588f",
+          "visit_date": "2024-02-12",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM9SOJUV0GYU",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "beb557e6-14e9-4119-bfa0-3fea90fbc2cc",
+          "visit_date": "2024-01-28",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMHUDS3QSQCQ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e6b83be3-9f32-48e1-9c76-0f6930492492",
+          "visit_date": "2023-12-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMLOFN1R4KZ3",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "f0073a9d-46b9-43aa-8ec9-76aabfd0331e",
+          "visit_date": "2023-12-22",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM1BXW76ICVQ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e9f9352d-197f-43e5-818c-21bf16f05b5e",
+          "visit_date": "2022-10-05",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0429",
+          "procedure_name": "Ambulance service, basic life support",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMTNJLCQNT3B",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "f1466b13-f605-48d5-888f-14933d8759b7",
+          "visit_date": "2022-07-10",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMG10UR5L8A7",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "88bf7de6-0721-4981-bff8-689560965464",
+          "visit_date": "2021-11-09",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM0UBMC97C7B",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR194262957",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2023-08-18",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "0ab82e04-6374-4234-b3e5-3040e015cb9a",
+          "visit_date": "2025-11-16",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMIZASNWYWRR",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4a016aa2-7287-4f70-9179-d43bb1c967d9",
+          "visit_date": "2025-09-26",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMTCAGRP2U4D",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "21250c4a-93fe-46d1-9f99-60a9cbed9806",
+          "visit_date": "2023-11-24",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMD9Q46NOUHF",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "fae14cad-5bc8-4100-bd5d-edf62645ca74",
+          "visit_date": "2023-03-01",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMGZR7TXCB48",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0c35e383-de73-4925-9d82-47d6c409cbcb",
+          "visit_date": "2022-10-27",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMZTKSZP7G7S",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "359e5902-c4d5-40df-96af-4c742eaa0bb8",
+          "visit_date": "2022-08-21",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMFLN4RXYJ38",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "bc12c9c8-eae7-4cff-bc08-f3f614502b61",
+          "visit_date": "2022-06-09",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMJONOU9IY4X",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR028840098",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2025-07-30",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "d6a19477-898f-49b6-8f6f-b6df099742ef",
+          "visit_date": "2025-05-23",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLM5AO20U9ISY",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "755020ca-f514-4803-b328-f6f42798217d",
+          "visit_date": "2024-10-01",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM37KUU4YTN0",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "84be4c4c-b4f3-402e-b9b3-cfd0ef75a58e",
+          "visit_date": "2024-05-28",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMCPPRCJIWVH",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c62104b6-2474-4f77-9ae7-926263f93438",
+          "visit_date": "2024-03-16",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLM4N5PP3XVKV",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4187f257-26d9-4084-8cd3-d142ea3e29bf",
+          "visit_date": "2023-09-24",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMALMJEGQTOA",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "58e78611-278b-424e-8c2e-3612ccebec96",
+          "visit_date": "2023-03-01",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMPYXDW2ZCFZ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "1892a41f-8cd0-4619-be29-51ba31ed18fd",
+          "visit_date": "2022-01-18",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMBP4M18O1BJ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR413376973",
+      "plan_id": "EPO_CORE",
+      "coverage_effective": {
+        "start_date": "2024-03-10",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 30,
+        "specialist": 55,
+        "urgent_care": 70,
+        "er": 325,
+        "telehealth": 15,
+        "rx_tier1": 12,
+        "rx_tier2": 35,
+        "rx_tier3": 70,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "d2d9c3c8-7e72-413b-80c8-c8987522619e",
+          "visit_date": "2025-05-14",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMLK3E4XYF9I",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d79d3b9a-0956-4fff-b084-096b7a7c17f1",
+          "visit_date": "2025-01-06",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMIOGXPBWHVN",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "48b38bf7-3bf7-4159-86c7-d7eefa27a9ad",
+          "visit_date": "2024-10-04",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMU2TNHEYR8L",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "5bd9af47-d8a3-406c-8e01-72d1668a8794",
+          "visit_date": "2022-11-12",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMZ3V6DIXFWU",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "26e54978-bbd0-4df5-8071-18c5ddcefb6d",
+          "visit_date": "2022-10-02",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMG1A07H23C4",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "3151eab5-dea6-46ae-9ee9-6da451ac9f2a",
+          "visit_date": "2022-08-12",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMRK7D30MM2S",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "87aa25ad-bbb7-418f-9e3c-1123375738f9",
+          "visit_date": "2022-04-15",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLM8PAJSSUUQO",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "a31f25fe-dc8b-4255-ae67-7a7adb976dde",
+          "visit_date": "2022-02-20",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMIXZ2C9ROS7",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR313416895",
+      "plan_id": "HMO_SILVER",
+      "coverage_effective": {
+        "start_date": "2025-01-04",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "019d4b94-42a1-4d5f-9111-1493af55b2cc",
+          "visit_date": "2024-11-20",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMNVUPRT77GG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "9f537321-bc54-46d1-902e-73e627b69faf",
+          "visit_date": "2024-11-11",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMBMAE38SRYO",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "5c6e734d-8feb-4e70-96e0-4c059bba06fa",
+          "visit_date": "2024-06-09",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMP91I3VMZWF",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "b2888d6c-49df-4964-bfcd-bf28afef26ee",
+          "visit_date": "2024-05-30",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMT11PHP0XI5",
+          "claim_status": "PENDING",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "14ef582b-b36d-4793-88e8-18f6f215886f",
+          "visit_date": "2023-03-05",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM2HBIK2U1RS",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR220325372",
+      "plan_id": "PPO_BASIC",
+      "coverage_effective": {
+        "start_date": "2024-04-06",
+        "end_date": "2026-01-12"
+      },
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "5709751c-1bb4-4c21-822b-e67f367f6088",
+          "visit_date": "2023-08-10",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLME5IZ31YRUJ",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "524a1022-a947-464c-b367-de22d2b7574d",
+          "visit_date": "2023-05-19",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMO0Z5QRU54D",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "96cba116-86dc-4042-95ed-4c76805cae6d",
+          "visit_date": "2022-05-09",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMO83RLKTE42",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR706809149",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2023-05-13",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "503c14ac-e3ea-4f2e-8227-a81c73e72a72",
+          "visit_date": "2025-05-19",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMEIYAZ39PEC",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "63978c35-dfec-4082-91f5-8ebe56aee74a",
+          "visit_date": "2025-05-04",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLME11E9FTAXP",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "7a2e3022-e9b2-4ea1-9aab-cc47ff7f1ba1",
+          "visit_date": "2024-03-21",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMDMCXXBW01P",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "17702455-78fe-4367-b86e-f151fc870b54",
+          "visit_date": "2022-05-23",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMY4DD1VN8LF",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR056676863",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2022-11-10",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "c5345c19-aed3-475d-a0d2-2834454290b1",
+          "visit_date": "2024-04-03",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMRERVT997E4",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "5de0b0d0-37f8-4e7a-a671-49ed54f02d4a",
+          "visit_date": "2023-11-12",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM81ACJBC2SW",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "f986fd39-01f9-4f4f-88ed-807e591bac65",
+          "visit_date": "2023-08-02",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMXTFDC79FLV",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "1ef547fa-d015-416e-8581-52d508429015",
+          "visit_date": "2022-04-09",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM04CDPQVL00",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e6225d0e-e435-4a3e-84a8-a85685c07ad1",
+          "visit_date": "2021-12-11",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMRMS3JN050E",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR345296450",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2024-10-29",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "67299ba7-c2a5-4188-9931-0d1ad3f0024a",
+          "visit_date": "2025-07-11",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMLTAHUKWQVR",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "9892c771-e473-4cf0-a90e-99aa58b49aaa",
+          "visit_date": "2024-10-25",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMATWYAM1N0L",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "ca684952-02c6-49e2-859f-af05b2003ef4",
+          "visit_date": "2024-07-30",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM9FKBI4O6Q0",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0b2fd8c9-0499-4228-bb29-1a97dfdbb6a5",
+          "visit_date": "2023-01-29",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMCUP8IJL2Z0",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "5534bf66-fc69-4355-baaf-69ee087d4c88",
+          "visit_date": "2022-09-11",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMA4ABN7G8B2",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "adc5417b-bd48-462d-a5c2-c168721d8a84",
+          "visit_date": "2022-03-28",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMOZJCNS6G29",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR202751144",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2022-10-04",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "9baa367f-e049-46fc-91ca-602830b44150",
+          "visit_date": "2025-03-07",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMY7DV7C9HX3",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0b19a608-77e2-4cb1-ba55-64778329b83c",
+          "visit_date": "2025-01-29",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMIKOTCKEH5S",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c63c2565-6947-4777-ae6a-8c95d1735126",
+          "visit_date": "2024-01-20",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMB7P0RNPM6J",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2b08ef85-acff-433e-8993-349d7c0e0398",
+          "visit_date": "2023-04-26",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMFY3ZB4LDIM",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "3becc196-ea3d-4645-a993-226d0293c636",
+          "visit_date": "2022-02-12",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMBOQ0IQ2FA3",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR879735495",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2023-08-02",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "277b07d5-dac0-4ac2-b0ec-eb9f772910dd",
+          "visit_date": "2025-08-07",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMM44GV3Z6BZ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "452bd96a-5a14-48ff-87e6-216b1ac3f4b9",
+          "visit_date": "2024-09-07",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMC9T199DXJ3",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR551984340",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2024-06-16",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "7e9fe66d-0b9f-477a-86d9-6c4d7e6bfcc0",
+          "visit_date": "2025-11-28",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM3MG25CFZFD",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "8d3210ee-138d-4e70-a4e2-ff685aed33e0",
+          "visit_date": "2023-11-13",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMODKEF828XG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR697251361",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2025-10-02",
+        "end_date": "2027-09-08"
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "0e913f33-255d-4323-80af-ea5183f44fbc",
+          "visit_date": "2025-06-01",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0425",
+          "procedure_name": "Ambulance service, mileage",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM5QJICJDAN0",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "d482a393-2dda-4732-b815-6a06fded8e9d",
+          "visit_date": "2025-04-29",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMFC79M96ZPX",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d498747f-4483-482a-bd57-edb2860cd958",
+          "visit_date": "2025-01-19",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMD3WRDHW9RE",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "591ab509-f7a4-4f74-bb17-6c48d5f7c38b",
+          "visit_date": "2023-08-05",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMTDR5XYFC4K",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e2f800ce-bedf-4a5d-9aba-20846f304b15",
+          "visit_date": "2023-06-24",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMHGZZ0JKIBU",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c25823d4-56f7-4659-a562-a9bf5fbd4dc9",
+          "visit_date": "2023-04-10",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMDTG5NQJQIJ",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "db1fc739-7698-4af4-a71c-45e40eeeff10",
+          "visit_date": "2022-09-24",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLM78HU7F0I9G",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4657de05-adc4-4792-8816-8e906371c6d1",
+          "visit_date": "2022-01-03",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMMT8VT43PT5",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR840975986",
+      "plan_id": "HMO_SILVER",
+      "coverage_effective": {
+        "start_date": "2024-12-08",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "40c96318-15b1-4e90-8041-9e6dd386e2b2",
+          "visit_date": "2025-09-23",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMZJ3SWEBNVG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "57409b5b-eb37-4d99-8301-5abcfe34e969",
+          "visit_date": "2025-05-08",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM2555JXURGO",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "799507ed-eab3-460d-973f-52f0b0317467",
+          "visit_date": "2024-12-22",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMBCYH3FVL03",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "17b93c4d-a0d8-450f-9129-dd54c7f65d97",
+          "visit_date": "2024-10-02",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMA21A6XVAJ2",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "6b6bb0c8-5fd2-4916-b15b-8dd3d2cd4855",
+          "visit_date": "2023-01-07",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLM2CZO2SUG5H",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2f48e660-8343-4974-a21c-264a536cf169",
+          "visit_date": "2022-10-17",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMS7AZV2EFUU",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "a2bbc354-c15f-4f5d-b86d-44cfbbcfce1c",
+          "visit_date": "2022-08-16",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0425",
+          "procedure_name": "Ambulance service, mileage",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM4J3DAB42HH",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "7980fa03-8d83-4e3b-95fc-3d93fc838a2c",
+          "visit_date": "2022-02-04",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM6LI076A3KK",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "1e97bb0d-7bbe-4367-8faf-ee63368d5532",
+          "visit_date": "2022-01-04",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLME9P3JPXGH3",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR964332468",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2023-07-15",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "58f8bb2e-1b35-4c74-891f-02d81829f110",
+          "visit_date": "2025-01-26",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM22VXYZX9JP",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "805a7916-265f-4360-be7e-a30c26cfd66b",
+          "visit_date": "2022-03-14",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMVKDC9X5JZ6",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR075172579",
+      "plan_id": "HMO_SILVER",
+      "coverage_effective": {
+        "start_date": "2023-10-02",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "a7b6ad30-642c-4351-9e8c-30a6dca63353",
+          "visit_date": "2024-12-02",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMQH1UF22EPP",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "e550cbb5-de99-4457-a819-4bf049e2f7cb",
+          "visit_date": "2024-01-21",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMQEBWUWQHEY",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e6bda393-a2ca-4451-b9ae-8de313d76ee8",
+          "visit_date": "2023-08-06",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMEHOU6QLZ2R",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "ef94118c-5e97-4519-8a2c-d82ab331f138",
+          "visit_date": "2022-10-13",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMEJ31GYMDM0",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR405798750",
+      "plan_id": "HMO_SILVER",
+      "coverage_effective": {
+        "start_date": "2025-09-27",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "382163e2-6963-4ad4-a425-ee75436ebae3",
+          "visit_date": "2025-09-14",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLM1WVBD4BEPE",
+          "claim_status": "PENDING",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "8c7bafc1-8ab8-4d19-ade9-4be4c16f70ef",
+          "visit_date": "2025-04-10",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMHJSHZKBRH7",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "92036325-820c-4f59-a45a-a9e9201f2010",
+          "visit_date": "2023-12-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMSLCB8QSSPY",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "ef517dc6-24cb-4b92-9d38-4a064f3f31b3",
+          "visit_date": "2023-03-02",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM87OI0E0VGN",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4a88dc3c-1739-4454-b3ba-5018cba2afc0",
+          "visit_date": "2021-12-23",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMWKXXJVE3DZ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR069861057",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2025-03-12",
+        "end_date": "2027-04-30"
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "0d6963f1-1b4d-4d79-9d84-26982cd305aa",
+          "visit_date": "2024-04-02",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM354MYPE46A",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2446b31f-1fcc-4e53-94c5-ac72d084cc3e",
+          "visit_date": "2023-11-26",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM506RR5PCXA",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "7a280573-4222-4775-8390-790b1676f92a",
+          "visit_date": "2023-07-20",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMEZC7FOV2YG",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "10b1a073-84e4-4879-8146-06afe34bc1e9",
+          "visit_date": "2022-12-21",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0425",
+          "procedure_name": "Ambulance service, mileage",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMI85SYWP0RX",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "9a81d394-8d13-41e3-afc9-1bd9459c6519",
+          "visit_date": "2022-04-14",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM8J0NMEOQ4Y",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR188609544",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2024-11-01",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "c71d3f74-c560-4cb0-a58b-6d7fc9208e28",
+          "visit_date": "2025-10-24",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMUADVWKSHY8",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4d642a96-075c-4283-9021-976684bc9a23",
+          "visit_date": "2025-08-10",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMUWRXZE1HM3",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "6b191173-5d43-4694-92f3-0bb299dd3f81",
+          "visit_date": "2024-11-04",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMBWYE6QVS8A",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "be41a0dd-2d37-4ae5-9afd-f9119920ace4",
+          "visit_date": "2024-04-11",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM6R30OJHE4H",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "040bee86-57ce-43ed-a001-1cc62d227654",
+          "visit_date": "2024-01-22",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMTN3CPUDRL9",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "6c51de32-3e2a-495c-9d7c-58cd8f90f882",
+          "visit_date": "2023-07-26",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0425",
+          "procedure_name": "Ambulance service, mileage",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMJ88QEOZ0KZ",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "9ad09dac-1fd3-4543-a00d-62fa8129d2f8",
+          "visit_date": "2022-10-23",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM726YG3DXVL",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "8eee96ab-e32a-4f35-b0c8-e4fb1f01534a",
+          "visit_date": "2021-12-06",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMRUYP04K43S",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "18abe70c-c2b9-4bd8-be06-484bc8b332d0",
+          "visit_date": "2021-12-03",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0425",
+          "procedure_name": "Ambulance service, mileage",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMHHZY7EZ9GT",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR161712286",
+      "plan_id": "PPO_BASIC",
+      "coverage_effective": {
+        "start_date": "2024-02-09",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "69dc894b-2fa2-40bb-bdcc-5e4f2d348b36",
+          "visit_date": "2025-10-26",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMAZC0B4MSKY",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "b43136c0-7a72-4fbe-82c3-b0b19f6398d0",
+          "visit_date": "2025-07-05",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMLDB2UUIJNW",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "83290cc7-9987-4ef6-9fdf-54769713eaad",
+          "visit_date": "2024-06-25",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM7B7V1W4K2T",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "b1937bc8-a975-4fe1-a516-b88f1c89ef68",
+          "visit_date": "2023-10-01",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMAS1SSRKXLC",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "39763e0b-2a16-4758-8c3e-ce3bcf14ab86",
+          "visit_date": "2023-05-18",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM050UI22KX7",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c05bcdfc-f0d1-4bb8-a113-5eb65705917c",
+          "visit_date": "2022-11-24",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMHWHY4H350P",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2d1a9583-2c85-4f7b-9fa7-9e038ef04a26",
+          "visit_date": "2022-07-13",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMKGYGGSNPUE",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "1b18b853-8277-4b85-a485-469939690c9c",
+          "visit_date": "2022-06-12",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMAYQ6WW8YL6",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "73c10c63-ab55-4bbd-a050-c3715626cedb",
+          "visit_date": "2022-01-26",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMAJW2536ZX1",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "36a96859-83e0-412e-8c24-01919f225251",
+          "visit_date": "2021-12-11",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMS2FTOM5XLK",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR293801277",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2022-09-14",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "bcf6cdca-7cd7-4241-a516-fbb958264551",
+          "visit_date": "2024-01-27",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMVUNLPAIH0P",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "d5f7012a-8b00-4bee-b976-0c9f73aa8321",
+          "visit_date": "2023-08-07",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMFH4GG24479",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "b7536512-65e7-47c4-84b1-8155465d43f2",
+          "visit_date": "2022-10-31",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMJHU8MYIKCG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "28428d9e-faf5-4682-b62d-4362c290ddf5",
+          "visit_date": "2021-10-28",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMTTEAVT8K06",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR178433516",
+      "plan_id": "MEDICARE_ADV",
+      "coverage_effective": {
+        "start_date": "2024-03-10",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 10,
+        "specialist": 30,
+        "urgent_care": 45,
+        "er": 90,
+        "telehealth": 0,
+        "rx_tier1": 5,
+        "rx_tier2": 20,
+        "rx_tier3": 45,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "a6b5ba8f-36d3-4fe7-bf9e-bbdb2cf08219",
+          "visit_date": "2024-10-23",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0429",
+          "procedure_name": "Ambulance service, basic life support",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMCCASBUOV6T",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "983dd033-1c14-48aa-b947-54b5b79d89ba",
+          "visit_date": "2023-11-04",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMS2N75BXD8W",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "a5002dfc-d9fd-49ea-b42a-f6e4a8105576",
+          "visit_date": "2022-11-20",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMNI10KQSOSX",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "018b4446-23ad-45de-9031-22359dbd5ffb",
+          "visit_date": "2022-06-21",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMQG8X80RMHR",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR755335802",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2024-07-06",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "3e01de6a-8f39-4819-adda-2571eef664bb",
+          "visit_date": "2025-05-23",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMTA7YPP5ZP7",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "7efc266c-d5b9-49a8-a745-7a942e203045",
+          "visit_date": "2025-02-02",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMSO8W5038HV",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "423c222a-ea2c-4852-bc1f-a962bd4499dd",
+          "visit_date": "2023-12-24",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMA5PISKFFV3",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "4df6c371-6a71-4d56-b700-4c0b49320b78",
+          "visit_date": "2023-10-11",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM64UPJ16DVT",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "beb69eba-5a58-4a4d-8d04-7540120a3749",
+          "visit_date": "2023-10-02",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMS6Y3VG6V5T",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "fc099225-107c-4dda-a0f6-86cde2b84bad",
+          "visit_date": "2023-08-03",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93000",
+          "procedure_name": "Electrocardiogram, routine ECG",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMYRVXOIEVES",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "22892638-34aa-4b5d-abf8-257841b7282e",
+          "visit_date": "2023-03-19",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMV23GXJ0MQV",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR070553284",
+      "plan_id": "PPO_PLUS",
+      "coverage_effective": {
+        "start_date": "2025-03-01",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 25,
+        "specialist": 50,
+        "urgent_care": 60,
+        "er": 300,
+        "telehealth": 10,
+        "rx_tier1": 10,
+        "rx_tier2": 30,
+        "rx_tier3": 60,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "72b960e0-7714-4033-bbf7-8431520ec15f",
+          "visit_date": "2025-05-29",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "85025",
+          "procedure_name": "Complete blood count (CBC)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLM6M8JVH7UJO",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "03351b41-b603-47c5-848f-37a706b194a9",
+          "visit_date": "2024-08-12",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMMX9DJOYOHA",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "0059b11c-a6e7-4fc6-b6cb-482fdaa92a62",
+          "visit_date": "2024-04-22",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM83XPHX2KBV",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "0c868d80-ef43-4157-b41d-fad0159fdcb8",
+          "visit_date": "2023-09-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM3QVDJNV07O",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "77058b48-f985-45f4-a854-25e935d98005",
+          "visit_date": "2022-11-28",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMJY1O2RNTJL",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "629ff23b-e570-4b1d-8766-2624ebac1ea8",
+          "visit_date": "2021-12-16",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMEI28DS22WY",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490",
+        "G0402"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR029898856",
+      "plan_id": "PPO_BASIC",
+      "coverage_effective": {
+        "start_date": "2023-08-25",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "7e570dfb-2216-4679-8a17-05be2a20ff5a",
+          "visit_date": "2025-11-16",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "93010",
+          "procedure_name": "ECG interpretation/report only",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMNL65UJG1SO",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "4326a4a2-e56a-452d-b30c-70d0d8bd931a",
+          "visit_date": "2025-03-12",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMRTSOYG9ZQY",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2d43d625-3f36-4e0d-8a9e-dab7e557095d",
+          "visit_date": "2024-06-08",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMY3C7RM6J8Y",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "060c4d04-664f-4f17-8e96-100aee6ccbb8",
+          "visit_date": "2023-05-05",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMRJN2HZ2OMT",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "8918b54a-c07d-4057-a2be-137c650d8294",
+          "visit_date": "2023-02-12",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "A0425",
+          "procedure_name": "Ambulance service, mileage",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMIJI44M2EC8",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR253625246",
+      "plan_id": "PPO_BASIC",
+      "coverage_effective": {
+        "start_date": "2023-09-17",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 35,
+        "specialist": 65,
+        "urgent_care": 75,
+        "er": 350,
+        "telehealth": 20,
+        "rx_tier1": 15,
+        "rx_tier2": 40,
+        "rx_tier3": 75,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "96114218-9614-42e0-92fc-95e39bd58e2d",
+          "visit_date": "2025-07-22",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM1S9DWD7OI0",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "52ea3b71-9c3a-4703-8605-b82e4f078b9f",
+          "visit_date": "2025-03-16",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMBX4LR9TJQ8",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "ceb94f7a-619a-4c05-a7fe-df1b4edac964",
+          "visit_date": "2025-02-06",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMPWO6CMLXZV",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "a8cf10d7-c425-4025-8959-70ffc4320340",
+          "visit_date": "2025-01-27",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLMPE6WTLRJ4B",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "691529cd-ed47-4c6f-b873-8b59b38c8a42",
+          "visit_date": "2024-12-30",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMRWQMMU7JAE",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "f333ce07-4f8d-4b16-bc47-391e80135162",
+          "visit_date": "2023-06-02",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLM8OGA0X7ZCG",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "b1556f49-d793-4f27-8892-5b2a511af0bf",
+          "visit_date": "2022-07-08",
+          "encounter_type": "Emergency",
+          "place_of_service": "ER",
+          "procedure_code": "99284",
+          "procedure_name": "Emergency department visit",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLMXG2MYR06NK",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "abc24d19-c22f-4afb-9474-3673da6fcbcd",
+          "visit_date": "2021-12-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLMKGEUIDJIPN",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "73502",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429",
+        "J3490"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR156655633",
+      "plan_id": "EPO_CORE",
+      "coverage_effective": {
+        "start_date": "2022-09-26",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 30,
+        "specialist": 55,
+        "urgent_care": 70,
+        "er": 325,
+        "telehealth": 15,
+        "rx_tier1": 12,
+        "rx_tier2": 35,
+        "rx_tier3": 70,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "0ac14082-1bcb-43d0-9099-957bbd56f36c",
+          "visit_date": "2024-04-09",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "80053",
+          "procedure_name": "Comprehensive metabolic panel",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMNOUOF0ONJP",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "f29a078c-b0c9-4760-95de-9935f22e13ef",
+          "visit_date": "2023-11-11",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMAS1EKTYR1K",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "e30b41f2-f2dc-4e3f-84a4-45b4dba93f59",
+          "visit_date": "2022-06-23",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMXTJGCEDQQZ",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "93010",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR319092140",
+      "plan_id": "HMO_SILVER",
+      "coverage_effective": {
+        "start_date": "2025-04-04",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 20,
+        "specialist": 45,
+        "urgent_care": 50,
+        "er": 250,
+        "telehealth": 0,
+        "rx_tier1": 10,
+        "rx_tier2": 25,
+        "rx_tier3": 50,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "1b0e8b92-9c91-40bf-803e-2e0319c08012",
+          "visit_date": "2025-10-22",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLMIZXTNSRTWL",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "2022afae-678c-48ea-a741-976bf2775eec",
+          "visit_date": "2025-04-17",
+          "encounter_type": "Specialist",
+          "place_of_service": "Clinic",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMB7GBDGBXNR",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d235e3fb-8cb9-4d76-873b-dc5f90d32327",
+          "visit_date": "2024-08-03",
+          "encounter_type": "Telehealth",
+          "place_of_service": "Telehealth",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "I10",
+          "claim_id": "CLM2VOI8UYYF1",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "98323d4f-6760-49cd-a1d8-fb36c15f0d2b",
+          "visit_date": "2024-07-05",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM9ZN9I9H0DX",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "d015c4f6-2760-4a9f-b860-01e64d098b31",
+          "visit_date": "2023-12-19",
+          "encounter_type": "Urgent Care",
+          "place_of_service": "UrgentCare",
+          "procedure_code": "71046",
+          "procedure_name": "Chest X-ray, 2 views",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLMYME6RPKZGG",
+          "claim_status": "PAID",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "0722ad61-478f-42ec-880d-0ef1191b4bd4",
+          "visit_date": "2023-09-25",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLMF00TERKMBY",
+          "claim_status": "DENIED",
+          "covered_under_plan": false
+        },
+        {
+          "visit_id": "26d00b91-ebf2-4a86-b44c-34cec9bdd392",
+          "visit_date": "2023-07-23",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "M54.5",
+          "claim_id": "CLM9Q2L48C1CQ",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "181e3b0b-7f11-412b-9b7a-dc7843ae18a8",
+          "visit_date": "2023-04-15",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "J06.9",
+          "claim_id": "CLM6TCFKJNAWN",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "c0052c3b-195b-4628-84cf-c9b763a810a8",
+          "visit_date": "2023-02-10",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99213",
+          "procedure_name": "Office/outpatient visit, established patient",
+          "diagnosis_stub": "E11.9",
+          "claim_id": "CLM79WCXZ2EI9",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "90715",
+        "90686",
+        "77067",
+        "99284"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    },
+    {
+      "member_id": "MBR502709698",
+      "plan_id": "HDHP_GOLD",
+      "coverage_effective": {
+        "start_date": "2023-02-20",
+        "end_date": null
+      },
+      "copay_schedule": {
+        "primary_care": 0,
+        "specialist": 0,
+        "urgent_care": 0,
+        "er": 0,
+        "telehealth": 0,
+        "rx_tier1": 0,
+        "rx_tier2": 0,
+        "rx_tier3": 0,
+        "imaging": 0,
+        "lab": 0
+      },
+      "past_visits": [
+        {
+          "visit_id": "6916a9b4-9740-44da-abea-9f9359902070",
+          "visit_date": "2023-08-01",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99214",
+          "procedure_name": "Office/outpatient visit, established patient (moderate)",
+          "diagnosis_stub": "Z00.00",
+          "claim_id": "CLM3JBCK88D0T",
+          "claim_status": "PENDING",
+          "covered_under_plan": true
+        },
+        {
+          "visit_id": "983a5984-fa59-41a7-86f1-6eec8ffb0165",
+          "visit_date": "2022-12-18",
+          "encounter_type": "Primary Care",
+          "place_of_service": "Office",
+          "procedure_code": "99203",
+          "procedure_name": "Office/outpatient visit, new patient",
+          "diagnosis_stub": "R07.9",
+          "claim_id": "CLM8UU01UYZPD",
+          "claim_status": "PAID",
+          "covered_under_plan": true
+        }
+      ],
+      "covered_procedures_per_plan": [
+        "99213",
+        "99214",
+        "99203",
+        "80053",
+        "80061",
+        "85025",
+        "36415",
+        "93000",
+        "71046",
+        "90715",
+        "90686",
+        "77067",
+        "45378",
+        "99284",
+        "A0425",
+        "A0429"
+      ],
+      "meta": {
+        "record_type": "SIMULATED_HIPAA_MOCK",
+        "created_at_utc": "2025-12-04T06:08:29Z"
+      }
+    }
+  ]
+}

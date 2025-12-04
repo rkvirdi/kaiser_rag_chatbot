@@ -1,0 +1,280 @@
+member_id,visit_id,visit_date,encounter_type,place_of_service,procedure_code,procedure_name,diagnosis_stub,claim_id,claim_status,covered_under_plan
+MBR022768040,b3bd6de3-e57b-4a86-b41c-5fd9e1c944be,2025-05-15,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMJBQE7CKW5N,PENDING,True
+MBR022768040,8c3f2c01-f8e7-4205-90a5-bddf9248a39a,2021-11-24,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLMHV3A3ZMF8M,PAID,False
+MBR028840098,d6a19477-898f-49b6-8f6f-b6df099742ef,2025-05-23,Primary Care,Office,99203,"Office/outpatient visit, new patient",E11.9,CLM5AO20U9ISY,PAID,True
+MBR028840098,755020ca-f514-4803-b328-f6f42798217d,2024-10-01,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLM37KUU4YTN0,PAID,True
+MBR028840098,84be4c4c-b4f3-402e-b9b3-cfd0ef75a58e,2024-05-28,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMCPPRCJIWVH,PAID,True
+MBR028840098,c62104b6-2474-4f77-9ae7-926263f93438,2024-03-16,Primary Care,Office,99213,"Office/outpatient visit, established patient",E11.9,CLM4N5PP3XVKV,PENDING,True
+MBR028840098,4187f257-26d9-4084-8cd3-d142ea3e29bf,2023-09-24,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",Z00.00,CLMALMJEGQTOA,PAID,True
+MBR028840098,58e78611-278b-424e-8c2e-3612ccebec96,2023-03-01,Telehealth,Telehealth,99213,"Office/outpatient visit, established patient",M54.5,CLMPYXDW2ZCFZ,PAID,True
+MBR028840098,1892a41f-8cd0-4619-be29-51ba31ed18fd,2022-01-18,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",E11.9,CLMBP4M18O1BJ,PAID,True
+MBR029898856,7e570dfb-2216-4679-8a17-05be2a20ff5a,2025-11-16,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLMNL65UJG1SO,DENIED,False
+MBR029898856,4326a4a2-e56a-452d-b30c-70d0d8bd931a,2025-03-12,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",M54.5,CLMRTSOYG9ZQY,PAID,True
+MBR029898856,2d43d625-3f36-4e0d-8a9e-dab7e557095d,2024-06-08,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,M54.5,CLMY3C7RM6J8Y,PAID,True
+MBR029898856,060c4d04-664f-4f17-8e96-100aee6ccbb8,2023-05-05,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",Z00.00,CLMRJN2HZ2OMT,PENDING,True
+MBR029898856,8918b54a-c07d-4057-a2be-137c650d8294,2023-02-12,Emergency,ER,A0425,"Ambulance service, mileage",R07.9,CLMIJI44M2EC8,PAID,True
+MBR056676863,c5345c19-aed3-475d-a0d2-2834454290b1,2024-04-03,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",I10,CLMRERVT997E4,PENDING,True
+MBR056676863,5de0b0d0-37f8-4e7a-a671-49ed54f02d4a,2023-11-12,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLM81ACJBC2SW,PAID,True
+MBR056676863,f986fd39-01f9-4f4f-88ed-807e591bac65,2023-08-02,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",Z00.00,CLMXTFDC79FLV,PAID,True
+MBR056676863,1ef547fa-d015-416e-8581-52d508429015,2022-04-09,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",M54.5,CLM04CDPQVL00,PAID,True
+MBR056676863,e6225d0e-e435-4a3e-84a8-a85685c07ad1,2021-12-11,Primary Care,Office,99213,"Office/outpatient visit, established patient",I10,CLMRMS3JN050E,PAID,True
+MBR067988348,7760032f-cfe7-43aa-97bc-68e5654dbdf5,2025-11-23,Primary Care,Office,99203,"Office/outpatient visit, new patient",E11.9,CLM81SDW4SHNF,PENDING,True
+MBR067988348,23899b02-81eb-48ac-9fab-e1f2a8a7421f,2025-09-25,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMH75LXO6QJI,PAID,True
+MBR067988348,10799f72-4241-40e6-ba78-b06e44697b49,2024-06-09,Specialist,Clinic,93010,ECG interpretation/report only,J06.9,CLMOH9SDBDW2P,PAID,True
+MBR067988348,4bef8b76-9d3a-4367-b510-0fc7c7712f51,2023-10-10,Primary Care,Office,99203,"Office/outpatient visit, new patient",J06.9,CLMJT7YE511MK,DENIED,False
+MBR067988348,82a8a5f6-87b4-4f1e-9d6a-7b9dec2f7570,2021-12-23,Specialist,Clinic,93010,ECG interpretation/report only,J06.9,CLMWTIQJ7YHL1,PAID,True
+MBR069861057,0d6963f1-1b4d-4d79-9d84-26982cd305aa,2024-04-02,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",Z00.00,CLM354MYPE46A,PAID,True
+MBR069861057,2446b31f-1fcc-4e53-94c5-ac72d084cc3e,2023-11-26,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLM506RR5PCXA,PAID,True
+MBR069861057,7a280573-4222-4775-8390-790b1676f92a,2023-07-20,Specialist,Clinic,93010,ECG interpretation/report only,I10,CLMEZC7FOV2YG,PENDING,True
+MBR069861057,10b1a073-84e4-4879-8146-06afe34bc1e9,2022-12-21,Emergency,ER,A0425,"Ambulance service, mileage",J06.9,CLMI85SYWP0RX,PAID,True
+MBR069861057,9a81d394-8d13-41e3-afc9-1bd9459c6519,2022-04-14,Primary Care,Office,99213,"Office/outpatient visit, established patient",M54.5,CLM8J0NMEOQ4Y,PAID,True
+MBR070553284,72b960e0-7714-4033-bbf7-8431520ec15f,2025-05-29,Urgent Care,UrgentCare,85025,Complete blood count (CBC),J06.9,CLM6M8JVH7UJO,PAID,True
+MBR070553284,03351b41-b603-47c5-848f-37a706b194a9,2024-08-12,Specialist,Clinic,93010,ECG interpretation/report only,Z00.00,CLMMX9DJOYOHA,PAID,True
+MBR070553284,0059b11c-a6e7-4fc6-b6cb-482fdaa92a62,2024-04-22,Specialist,Clinic,93010,ECG interpretation/report only,Z00.00,CLM83XPHX2KBV,DENIED,False
+MBR070553284,0c868d80-ef43-4157-b41d-fad0159fdcb8,2023-09-25,Primary Care,Office,99203,"Office/outpatient visit, new patient",Z00.00,CLM3QVDJNV07O,PAID,True
+MBR070553284,77058b48-f985-45f4-a854-25e935d98005,2022-11-28,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMJY1O2RNTJL,PAID,True
+MBR070553284,629ff23b-e570-4b1d-8766-2624ebac1ea8,2021-12-16,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLMEI28DS22WY,PAID,True
+MBR075172579,a7b6ad30-642c-4351-9e8c-30a6dca63353,2024-12-02,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",Z00.00,CLMQH1UF22EPP,PAID,False
+MBR075172579,e550cbb5-de99-4457-a819-4bf049e2f7cb,2024-01-21,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMQEBWUWQHEY,PAID,True
+MBR075172579,e6bda393-a2ca-4451-b9ae-8de313d76ee8,2023-08-06,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMEHOU6QLZ2R,PENDING,True
+MBR075172579,ef94118c-5e97-4519-8a2c-d82ab331f138,2022-10-13,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,M54.5,CLMEJ31GYMDM0,PAID,True
+MBR080078555,b068c627-aeba-4444-aa6e-8eb861a3ca77,2024-06-24,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMRPETIUYMO0,PAID,True
+MBR080078555,b804926e-b25e-45f5-afe4-95608b6a4890,2024-05-08,Primary Care,Office,99203,"Office/outpatient visit, new patient",M54.5,CLM493WXA73JG,PAID,True
+MBR080078555,6ce91e05-01e9-4cb1-bb59-ab4be0e7deea,2024-03-07,Urgent Care,UrgentCare,85025,Complete blood count (CBC),I10,CLM5UOFWB0HPM,PAID,True
+MBR080078555,3770be57-4e04-4f0a-9500-8fda38ecddaa,2023-06-19,Primary Care,Office,99213,"Office/outpatient visit, established patient",J06.9,CLMOC50H2CWTG,PAID,True
+MBR080078555,7436e291-0722-4bf8-a420-bd56093ab607,2023-05-03,Primary Care,Office,99213,"Office/outpatient visit, established patient",J06.9,CLMPOXKO8G8QY,PENDING,True
+MBR080078555,e6958c46-9c45-4ddb-88eb-e8495fe37c5d,2023-01-15,Primary Care,Office,99213,"Office/outpatient visit, established patient",Z00.00,CLMKYRYBOVAKH,PAID,True
+MBR080078555,9dcab8df-873f-4d93-994c-f1b65ddc3588,2022-03-08,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLMBKLDSFR4MU,PENDING,True
+MBR080078555,201bc9c6-3b72-43e1-ba6d-8a51d455c27c,2021-11-13,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMV5F1BCPPVO,PENDING,True
+MBR156655633,0ac14082-1bcb-43d0-9099-957bbd56f36c,2024-04-09,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,J06.9,CLMNOUOF0ONJP,PENDING,True
+MBR156655633,f29a078c-b0c9-4760-95de-9935f22e13ef,2023-11-11,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMAS1EKTYR1K,PAID,True
+MBR156655633,e30b41f2-f2dc-4e3f-84a4-45b4dba93f59,2022-06-23,Primary Care,Office,99203,"Office/outpatient visit, new patient",E11.9,CLMXTJGCEDQQZ,PAID,True
+MBR161712286,69dc894b-2fa2-40bb-bdcc-5e4f2d348b36,2025-10-26,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMAZC0B4MSKY,PAID,True
+MBR161712286,b43136c0-7a72-4fbe-82c3-b0b19f6398d0,2025-07-05,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,R07.9,CLMLDB2UUIJNW,PAID,True
+MBR161712286,83290cc7-9987-4ef6-9fdf-54769713eaad,2024-06-25,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLM7B7V1W4K2T,PAID,True
+MBR161712286,b1937bc8-a975-4fe1-a516-b88f1c89ef68,2023-10-01,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMAS1SSRKXLC,PAID,True
+MBR161712286,39763e0b-2a16-4758-8c3e-ce3bcf14ab86,2023-05-18,Primary Care,Office,99213,"Office/outpatient visit, established patient",R07.9,CLM050UI22KX7,PAID,True
+MBR161712286,c05bcdfc-f0d1-4bb8-a113-5eb65705917c,2022-11-24,Primary Care,Office,99203,"Office/outpatient visit, new patient",Z00.00,CLMHWHY4H350P,PAID,True
+MBR161712286,2d1a9583-2c85-4f7b-9fa7-9e038ef04a26,2022-07-13,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMKGYGGSNPUE,PENDING,True
+MBR161712286,1b18b853-8277-4b85-a485-469939690c9c,2022-06-12,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLMAYQ6WW8YL6,DENIED,False
+MBR161712286,73c10c63-ab55-4bbd-a050-c3715626cedb,2022-01-26,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMAJW2536ZX1,DENIED,False
+MBR161712286,36a96859-83e0-412e-8c24-01919f225251,2021-12-11,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMS2FTOM5XLK,PAID,True
+MBR178433516,a6b5ba8f-36d3-4fe7-bf9e-bbdb2cf08219,2024-10-23,Emergency,ER,A0429,"Ambulance service, basic life support",R07.9,CLMCCASBUOV6T,PAID,False
+MBR178433516,983dd033-1c14-48aa-b947-54b5b79d89ba,2023-11-04,Primary Care,Office,99213,"Office/outpatient visit, established patient",I10,CLMS2N75BXD8W,PAID,True
+MBR178433516,a5002dfc-d9fd-49ea-b42a-f6e4a8105576,2022-11-20,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",I10,CLMNI10KQSOSX,PAID,True
+MBR178433516,018b4446-23ad-45de-9031-22359dbd5ffb,2022-06-21,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,I10,CLMQG8X80RMHR,PENDING,True
+MBR188609544,c71d3f74-c560-4cb0-a58b-6d7fc9208e28,2025-10-24,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",Z00.00,CLMUADVWKSHY8,PAID,True
+MBR188609544,4d642a96-075c-4283-9021-976684bc9a23,2025-08-10,Primary Care,Office,99213,"Office/outpatient visit, established patient",E11.9,CLMUWRXZE1HM3,PENDING,True
+MBR188609544,6b191173-5d43-4694-92f3-0bb299dd3f81,2024-11-04,Urgent Care,UrgentCare,85025,Complete blood count (CBC),M54.5,CLMBWYE6QVS8A,PAID,True
+MBR188609544,be41a0dd-2d37-4ae5-9afd-f9119920ace4,2024-04-11,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLM6R30OJHE4H,PAID,True
+MBR188609544,040bee86-57ce-43ed-a001-1cc62d227654,2024-01-22,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMTN3CPUDRL9,PAID,True
+MBR188609544,6c51de32-3e2a-495c-9d7c-58cd8f90f882,2023-07-26,Emergency,ER,A0425,"Ambulance service, mileage",I10,CLMJ88QEOZ0KZ,PENDING,True
+MBR188609544,9ad09dac-1fd3-4543-a00d-62fa8129d2f8,2022-10-23,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",M54.5,CLM726YG3DXVL,PENDING,True
+MBR188609544,8eee96ab-e32a-4f35-b0c8-e4fb1f01534a,2021-12-06,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMRUYP04K43S,PENDING,True
+MBR188609544,18abe70c-c2b9-4bd8-be06-484bc8b332d0,2021-12-03,Emergency,ER,A0425,"Ambulance service, mileage",R07.9,CLMHHZY7EZ9GT,PENDING,True
+MBR194262957,0ab82e04-6374-4234-b3e5-3040e015cb9a,2025-11-16,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",R07.9,CLMIZASNWYWRR,PAID,True
+MBR194262957,4a016aa2-7287-4f70-9179-d43bb1c967d9,2025-09-26,Emergency,ER,99284,Emergency department visit,M54.5,CLMTCAGRP2U4D,PAID,True
+MBR194262957,21250c4a-93fe-46d1-9f99-60a9cbed9806,2023-11-24,Primary Care,Office,99203,"Office/outpatient visit, new patient",M54.5,CLMD9Q46NOUHF,PENDING,True
+MBR194262957,fae14cad-5bc8-4100-bd5d-edf62645ca74,2023-03-01,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",E11.9,CLMGZR7TXCB48,PAID,True
+MBR194262957,0c35e383-de73-4925-9d82-47d6c409cbcb,2022-10-27,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMZTKSZP7G7S,PAID,True
+MBR194262957,359e5902-c4d5-40df-96af-4c742eaa0bb8,2022-08-21,Primary Care,Office,99203,"Office/outpatient visit, new patient",E11.9,CLMFLN4RXYJ38,PAID,True
+MBR194262957,bc12c9c8-eae7-4cff-bc08-f3f614502b61,2022-06-09,Primary Care,Office,99203,"Office/outpatient visit, new patient",E11.9,CLMJONOU9IY4X,PAID,True
+MBR202751144,9baa367f-e049-46fc-91ca-602830b44150,2025-03-07,Telehealth,Telehealth,99213,"Office/outpatient visit, established patient",E11.9,CLMY7DV7C9HX3,PENDING,True
+MBR202751144,0b19a608-77e2-4cb1-ba55-64778329b83c,2025-01-29,Primary Care,Office,99213,"Office/outpatient visit, established patient",J06.9,CLMIKOTCKEH5S,PAID,True
+MBR202751144,c63c2565-6947-4777-ae6a-8c95d1735126,2024-01-20,Primary Care,Office,99213,"Office/outpatient visit, established patient",M54.5,CLMB7P0RNPM6J,PAID,True
+MBR202751144,2b08ef85-acff-433e-8993-349d7c0e0398,2023-04-26,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",Z00.00,CLMFY3ZB4LDIM,PENDING,True
+MBR202751144,3becc196-ea3d-4645-a993-226d0293c636,2022-02-12,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",I10,CLMBOQ0IQ2FA3,PAID,True
+MBR208592089,400846f4-bd82-4c3a-accc-2628761a94b0,2025-09-14,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMD5EQY08P0F,DENIED,False
+MBR208592089,95e2d7d1-5a9b-4ea5-a696-d1f674b1e362,2025-05-11,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMBNP84DYT9M,PAID,True
+MBR208592089,6911ce50-27bc-46d6-a61f-3b59b204c567,2024-11-06,Primary Care,Office,99213,"Office/outpatient visit, established patient",M54.5,CLMDHX8BM92H3,PENDING,True
+MBR220325372,5709751c-1bb4-4c21-822b-e67f367f6088,2023-08-10,Primary Care,Office,99213,"Office/outpatient visit, established patient",R07.9,CLME5IZ31YRUJ,DENIED,False
+MBR220325372,524a1022-a947-464c-b367-de22d2b7574d,2023-05-19,Primary Care,Office,99213,"Office/outpatient visit, established patient",Z00.00,CLMO0Z5QRU54D,PAID,True
+MBR220325372,96cba116-86dc-4042-95ed-4c76805cae6d,2022-05-09,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMO83RLKTE42,PENDING,True
+MBR253625246,96114218-9614-42e0-92fc-95e39bd58e2d,2025-07-22,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLM1S9DWD7OI0,PAID,True
+MBR253625246,52ea3b71-9c3a-4703-8605-b82e4f078b9f,2025-03-16,Primary Care,Office,99213,"Office/outpatient visit, established patient",I10,CLMBX4LR9TJQ8,PAID,True
+MBR253625246,ceb94f7a-619a-4c05-a7fe-df1b4edac964,2025-02-06,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMPWO6CMLXZV,PAID,True
+MBR253625246,a8cf10d7-c425-4025-8959-70ffc4320340,2025-01-27,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMPE6WTLRJ4B,PENDING,True
+MBR253625246,691529cd-ed47-4c6f-b873-8b59b38c8a42,2024-12-30,Primary Care,Office,99213,"Office/outpatient visit, established patient",E11.9,CLMRWQMMU7JAE,PAID,True
+MBR253625246,f333ce07-4f8d-4b16-bc47-391e80135162,2023-06-02,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLM8OGA0X7ZCG,PAID,True
+MBR253625246,b1556f49-d793-4f27-8892-5b2a511af0bf,2022-07-08,Emergency,ER,99284,Emergency department visit,R07.9,CLMXG2MYR06NK,PAID,True
+MBR253625246,abc24d19-c22f-4afb-9474-3673da6fcbcd,2021-12-25,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMKGEUIDJIPN,PAID,True
+MBR293801277,bcf6cdca-7cd7-4241-a516-fbb958264551,2024-01-27,Specialist,Clinic,93010,ECG interpretation/report only,R07.9,CLMVUNLPAIH0P,PAID,False
+MBR293801277,d5f7012a-8b00-4bee-b976-0c9f73aa8321,2023-08-07,Primary Care,Office,99203,"Office/outpatient visit, new patient",I10,CLMFH4GG24479,PENDING,True
+MBR293801277,b7536512-65e7-47c4-84b1-8155465d43f2,2022-10-31,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMJHU8MYIKCG,PAID,True
+MBR293801277,28428d9e-faf5-4682-b62d-4362c290ddf5,2021-10-28,Primary Care,Office,99203,"Office/outpatient visit, new patient",Z00.00,CLMTTEAVT8K06,PAID,True
+MBR298831876,4ec868fc-4e2a-4bb3-a2ec-88c61693de75,2025-08-17,Primary Care,Office,99213,"Office/outpatient visit, established patient",E11.9,CLMBME9FPZUE8,PAID,True
+MBR298831876,ba4af3a6-2a39-4857-9307-c9ecc199aab1,2025-01-28,Specialist,Clinic,93010,ECG interpretation/report only,E11.9,CLMUFEL6246HI,PAID,True
+MBR298831876,2a79fee0-d504-430a-9718-e6e0ca5aa8a2,2024-11-02,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",M54.5,CLMY6WKTAKPUX,PAID,True
+MBR298831876,e0cbf0cb-aa1c-4138-b7cb-a9394e07f74e,2024-07-09,Urgent Care,UrgentCare,85025,Complete blood count (CBC),R07.9,CLMD54I3QK2IA,PAID,True
+MBR298831876,f72cfe6d-8acf-48b5-a9d4-b7fd05b2ef2f,2024-01-27,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMMSY4LA5JU9,PENDING,True
+MBR298831876,d3bb0f4c-7278-41e1-9f47-5d78ad1a0ebb,2023-06-08,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLM280XKXWD8I,PAID,True
+MBR298831876,c6edb578-10c3-4f44-8195-afcdd0c564b4,2022-10-10,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLMF75935A0L7,DENIED,False
+MBR298831876,e26080bc-2d08-4665-9d38-e47f845252fe,2022-07-27,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMP9E6GBPS3Y,PAID,True
+MBR298831876,0e35f65f-8abc-4183-bc21-b813752f0f31,2022-03-12,Primary Care,Office,99213,"Office/outpatient visit, established patient",I10,CLMJ60FKHMY4S,PENDING,True
+MBR298831876,6fff26b7-23c4-49f8-a84d-7f1a022e0a4c,2022-02-25,Telehealth,Telehealth,99213,"Office/outpatient visit, established patient",Z00.00,CLM87WXE6SYLZ,PAID,True
+MBR313416895,019d4b94-42a1-4d5f-9111-1493af55b2cc,2024-11-20,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMNVUPRT77GG,PAID,True
+MBR313416895,9f537321-bc54-46d1-902e-73e627b69faf,2024-11-11,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMBMAE38SRYO,PENDING,True
+MBR313416895,5c6e734d-8feb-4e70-96e0-4c059bba06fa,2024-06-09,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMP91I3VMZWF,PENDING,True
+MBR313416895,b2888d6c-49df-4964-bfcd-bf28afef26ee,2024-05-30,Specialist,Clinic,93010,ECG interpretation/report only,E11.9,CLMT11PHP0XI5,PENDING,False
+MBR313416895,14ef582b-b36d-4793-88e8-18f6f215886f,2023-03-05,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,Z00.00,CLM2HBIK2U1RS,PAID,True
+MBR319092140,1b0e8b92-9c91-40bf-803e-2e0319c08012,2025-10-22,Primary Care,Office,99203,"Office/outpatient visit, new patient",J06.9,CLMIZXTNSRTWL,PENDING,True
+MBR319092140,2022afae-678c-48ea-a741-976bf2775eec,2025-04-17,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMB7GBDGBXNR,PAID,True
+MBR319092140,d235e3fb-8cb9-4d76-873b-dc5f90d32327,2024-08-03,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",I10,CLM2VOI8UYYF1,PAID,True
+MBR319092140,98323d4f-6760-49cd-a1d8-fb36c15f0d2b,2024-07-05,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLM9ZN9I9H0DX,PENDING,True
+MBR319092140,d015c4f6-2760-4a9f-b860-01e64d098b31,2023-12-19,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",Z00.00,CLMYME6RPKZGG,PAID,False
+MBR319092140,0722ad61-478f-42ec-880d-0ef1191b4bd4,2023-09-25,Primary Care,Office,99203,"Office/outpatient visit, new patient",E11.9,CLMF00TERKMBY,DENIED,False
+MBR319092140,26d00b91-ebf2-4a86-b44c-34cec9bdd392,2023-07-23,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLM9Q2L48C1CQ,PENDING,True
+MBR319092140,181e3b0b-7f11-412b-9b7a-dc7843ae18a8,2023-04-15,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLM6TCFKJNAWN,PENDING,True
+MBR319092140,c0052c3b-195b-4628-84cf-c9b763a810a8,2023-02-10,Primary Care,Office,99213,"Office/outpatient visit, established patient",E11.9,CLM79WCXZ2EI9,PAID,True
+MBR345296450,67299ba7-c2a5-4188-9931-0d1ad3f0024a,2025-07-11,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMLTAHUKWQVR,PENDING,True
+MBR345296450,9892c771-e473-4cf0-a90e-99aa58b49aaa,2024-10-25,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,M54.5,CLMATWYAM1N0L,PAID,True
+MBR345296450,ca684952-02c6-49e2-859f-af05b2003ef4,2024-07-30,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLM9FKBI4O6Q0,PAID,True
+MBR345296450,0b2fd8c9-0499-4228-bb29-1a97dfdbb6a5,2023-01-29,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMCUP8IJL2Z0,PAID,True
+MBR345296450,5534bf66-fc69-4355-baaf-69ee087d4c88,2022-09-11,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",J06.9,CLMA4ABN7G8B2,PAID,True
+MBR345296450,adc5417b-bd48-462d-a5c2-c168721d8a84,2022-03-28,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",I10,CLMOZJCNS6G29,PAID,True
+MBR368940558,51cc2cfa-2c27-4e48-950b-48d1b284c775,2025-10-01,Primary Care,Office,99213,"Office/outpatient visit, established patient",Z00.00,CLMKNFTU2GC5W,PAID,True
+MBR368940558,d3205ff7-25b1-4130-81c8-faaa8dc51423,2025-02-07,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMC2JWOCLYT8,PENDING,True
+MBR368940558,8f0b8af6-0af4-4eb5-91e7-26bd3062a328,2023-11-11,Specialist,Clinic,93010,ECG interpretation/report only,E11.9,CLM3J3R30ME8F,PAID,True
+MBR368940558,69586e9e-6cd6-4c53-bcf0-1e936895bc48,2023-07-15,Specialist,Clinic,93010,ECG interpretation/report only,E11.9,CLMHNRIUU9K9X,PAID,True
+MBR368940558,898350d1-61de-47c4-b98d-2d6570feedb9,2023-03-06,Specialist,Clinic,93010,ECG interpretation/report only,Z00.00,CLMIYKID91ZDF,PAID,True
+MBR368940558,348428c4-1642-416e-9cbf-0e184df46b19,2022-09-27,Primary Care,Office,99203,"Office/outpatient visit, new patient",Z00.00,CLM60361I2HGJ,PENDING,True
+MBR368940558,08f79113-187c-4ee3-902a-5f7f180c773f,2022-08-23,Primary Care,Office,99213,"Office/outpatient visit, established patient",R07.9,CLMJJA26YFPMV,PAID,True
+MBR368940558,a2f494ed-d948-47cd-95fa-9294a09e8c80,2022-03-20,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,R07.9,CLMXLPU0DK0GE,PAID,True
+MBR368940558,7dfe195f-bd69-43a5-8eeb-ae5f67affa15,2022-02-13,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMN2ATQYYV37,DENIED,False
+MBR396112117,02b4b3df-d209-4ffa-828a-d5cbfbba5dfb,2025-07-01,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMC3C54WSQT2,PAID,True
+MBR396112117,4bb6a3e8-541b-4db6-8b9b-6ddcd6334b9b,2025-03-13,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLM96DYSAL8M1,PAID,True
+MBR396112117,debb53a6-fbd6-49c0-82aa-c80cbf582036,2025-02-21,Primary Care,Office,99213,"Office/outpatient visit, established patient",Z00.00,CLMST0SX5WVFG,PAID,True
+MBR396112117,2958e2ff-da22-4bb2-a4e4-c5941bc9457a,2024-10-28,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",J06.9,CLM9QKNS832EJ,PAID,True
+MBR396112117,59dddbfc-917d-45dc-9f21-09269b5c79d5,2023-06-14,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,E11.9,CLMN1YBWMLUNJ,PAID,True
+MBR396112117,d32edc38-e57c-40f4-b864-af73d94fdd6a,2023-05-23,Emergency,ER,A0425,"Ambulance service, mileage",E11.9,CLMVS8Q349DXB,PAID,False
+MBR396112117,80737486-d61d-48cc-8094-1c48be614bb0,2022-10-02,Specialist,Clinic,93010,ECG interpretation/report only,J06.9,CLMX9L8LPQW2V,PAID,True
+MBR396112117,c9a936d5-ece9-41c2-95d0-8b92c98cad6e,2022-07-14,Emergency,ER,99284,Emergency department visit,J06.9,CLMX7LXXEZDUX,PAID,True
+MBR396112117,ae6961cc-01ff-43cc-bd2a-fe276b83c1b1,2022-05-30,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMOYIPK0QTL3,PAID,True
+MBR405798750,382163e2-6963-4ad4-a425-ee75436ebae3,2025-09-14,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",E11.9,CLM1WVBD4BEPE,PENDING,False
+MBR405798750,8c7bafc1-8ab8-4d19-ade9-4be4c16f70ef,2025-04-10,Primary Care,Office,99213,"Office/outpatient visit, established patient",J06.9,CLMHJSHZKBRH7,PAID,True
+MBR405798750,92036325-820c-4f59-a45a-a9e9201f2010,2023-12-25,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMSLCB8QSSPY,PAID,True
+MBR405798750,ef517dc6-24cb-4b92-9d38-4a064f3f31b3,2023-03-02,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLM87OI0E0VGN,PENDING,True
+MBR405798750,4a88dc3c-1739-4454-b3ba-5018cba2afc0,2021-12-23,Primary Care,Office,99213,"Office/outpatient visit, established patient",R07.9,CLMWKXXJVE3DZ,PAID,True
+MBR413376973,d2d9c3c8-7e72-413b-80c8-c8987522619e,2025-05-14,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMLK3E4XYF9I,PAID,True
+MBR413376973,d79d3b9a-0956-4fff-b084-096b7a7c17f1,2025-01-06,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMIOGXPBWHVN,PAID,True
+MBR413376973,48b38bf7-3bf7-4159-86c7-d7eefa27a9ad,2024-10-04,Urgent Care,UrgentCare,85025,Complete blood count (CBC),Z00.00,CLMU2TNHEYR8L,PENDING,True
+MBR413376973,5bd9af47-d8a3-406c-8e01-72d1668a8794,2022-11-12,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMZ3V6DIXFWU,PENDING,True
+MBR413376973,26e54978-bbd0-4df5-8071-18c5ddcefb6d,2022-10-02,Primary Care,Office,99213,"Office/outpatient visit, established patient",J06.9,CLMG1A07H23C4,PAID,True
+MBR413376973,3151eab5-dea6-46ae-9ee9-6da451ac9f2a,2022-08-12,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,Z00.00,CLMRK7D30MM2S,PAID,True
+MBR413376973,87aa25ad-bbb7-418f-9e3c-1123375738f9,2022-04-15,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",E11.9,CLM8PAJSSUUQO,DENIED,False
+MBR413376973,a31f25fe-dc8b-4255-ae67-7a7adb976dde,2022-02-20,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",E11.9,CLMIXZ2C9ROS7,PAID,True
+MBR461962155,d2493e88-5f42-423b-a3f8-0e8609634454,2025-04-03,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLM7KZORQQFGV,PENDING,True
+MBR461962155,0516b668-1d1f-4a1a-b0cb-09803d72365c,2025-02-23,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",M54.5,CLMM2JA04UX5Q,PAID,True
+MBR461962155,88ebdecb-1207-453f-b192-d63c6506dda3,2024-01-19,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLMQLGZUI1B0Z,PENDING,True
+MBR462460905,ccb8d9f7-1aa3-4c3e-bb1a-75254046fa44,2025-09-05,Urgent Care,UrgentCare,85025,Complete blood count (CBC),J06.9,CLMO3RBXK5BXJ,PENDING,True
+MBR462460905,2bde7914-697a-4a71-8a5a-4b133e21d43a,2025-08-04,Primary Care,Office,99213,"Office/outpatient visit, established patient",M54.5,CLMN2Y8FV2BC2,PAID,True
+MBR462460905,e43eb50c-8ba1-4357-84f8-59a4e73fe460,2024-10-14,Primary Care,Office,99213,"Office/outpatient visit, established patient",M54.5,CLMATN2TWDL9Z,PAID,True
+MBR462460905,8b2cbbd0-ff38-4f35-9e00-f423a1441f02,2024-04-07,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMXLVPYMB5M9,PAID,True
+MBR462460905,037b3bdd-dd9d-4642-bd79-567d249180d4,2023-10-07,Primary Care,Office,99203,"Office/outpatient visit, new patient",I10,CLMY8N1UTOXIE,PAID,True
+MBR462460905,4ba66ed8-902d-4481-ad68-8030a354be3a,2023-09-22,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",M54.5,CLM9JA2M0W10L,PAID,True
+MBR462460905,dfe17b59-7bd4-4db7-9d04-b113b0764684,2023-06-19,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",M54.5,CLMMGYN2JCPP9,PAID,True
+MBR462460905,1e7bccc6-3582-4312-b1f7-cf681993d96e,2023-06-02,Emergency,ER,99284,Emergency department visit,E11.9,CLMYZTKKFZZGN,PENDING,True
+MBR462460905,a3730f30-346e-4cdf-b7e8-cd3c84b0949e,2023-02-11,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",Z00.00,CLMJJQ9K6RE4Q,PENDING,True
+MBR462460905,28e0a041-bc2a-48d3-8f80-7be23b4cbe3b,2022-11-07,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLM3Y9RGEZ7BH,PENDING,True
+MBR502709698,6916a9b4-9740-44da-abea-9f9359902070,2023-08-01,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLM3JBCK88D0T,PENDING,True
+MBR502709698,983a5984-fa59-41a7-86f1-6eec8ffb0165,2022-12-18,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLM8UU01UYZPD,PAID,True
+MBR506140323,f28b6f96-21d9-4b5f-950d-08a66b57c946,2025-06-15,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMB8IC8BBI4W,PAID,True
+MBR506140323,bca26953-ce2d-4f1e-824d-a1884d5a1161,2023-07-12,Specialist,Clinic,93010,ECG interpretation/report only,E11.9,CLMZJJEGET1GH,PAID,False
+MBR506140323,91dba68e-9491-4e39-9329-15c37d65084f,2023-04-05,Primary Care,Office,99203,"Office/outpatient visit, new patient",I10,CLMQJNV8Z2FLU,PAID,True
+MBR506140323,3781b6a8-2da2-421e-be5a-ee2bccb13741,2022-12-04,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMSM43D8W3ZP,PAID,True
+MBR506140323,d0685a70-bceb-447e-b76c-a25bb20e195a,2022-09-07,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLMHV3IZKY22U,PAID,True
+MBR506140323,79ee157d-a983-474d-b98a-6d9e6b2d4efa,2022-04-07,Urgent Care,UrgentCare,85025,Complete blood count (CBC),J06.9,CLM1Q3VLI7KQ1,PAID,True
+MBR506140323,34542df3-2b33-43b4-9a38-c07f197eae35,2022-03-02,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",M54.5,CLM4GH2M5ZJA8,PAID,False
+MBR506140323,7e64641c-6785-41af-9dee-78562c39cb83,2021-11-16,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMYXR2DHYLUR,PAID,True
+MBR544893667,9ab875a6-2153-4d3e-a50c-62688b6ea594,2025-03-20,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLMOJTPV60VAI,PAID,True
+MBR544893667,60fc5270-b05e-4866-b98f-4c6b926e7f47,2025-01-12,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMFOYQBKK4CI,PAID,True
+MBR544893667,f6d1de7d-4769-41cf-9edd-a8f112fa752c,2023-08-25,Primary Care,Office,99203,"Office/outpatient visit, new patient",Z00.00,CLMXTOGN1W1HT,PENDING,True
+MBR544893667,1c40133c-da0a-4890-8c3f-f4ddc1ebfed0,2023-04-12,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMY4LYK83TQL,PAID,True
+MBR544893667,9a7ac784-33e8-4b53-929d-ac026adcdacc,2022-09-08,Specialist,Clinic,93010,ECG interpretation/report only,R07.9,CLM3U1GSPK9P3,DENIED,False
+MBR544893667,04f216e4-60ec-42e3-b8a8-2bece691ca84,2022-05-29,Primary Care,Office,99203,"Office/outpatient visit, new patient",I10,CLMPTX63CFL0U,PAID,True
+MBR551984340,7e9fe66d-0b9f-477a-86d9-6c4d7e6bfcc0,2025-11-28,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",I10,CLM3MG25CFZFD,PENDING,True
+MBR551984340,8d3210ee-138d-4e70-a4e2-ff685aed33e0,2023-11-13,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLMODKEF828XG,PAID,True
+MBR582775299,f5be7667-a0ae-45dd-8366-241f7c19e662,2025-10-08,Primary Care,Office,99213,"Office/outpatient visit, established patient",I10,CLMVAJEPECQNV,PAID,True
+MBR582775299,d72edb68-1938-4020-814e-94d8cf20c5e7,2024-09-02,Specialist,Clinic,93010,ECG interpretation/report only,R07.9,CLMSQ8CROYR6C,PAID,False
+MBR582775299,13409194-2c12-4b09-949c-ae88eaa4db29,2022-10-27,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLMQIMQODPXNF,PENDING,False
+MBR582775299,49187596-2056-453d-a53b-797304c42baf,2022-07-03,Primary Care,Office,99213,"Office/outpatient visit, established patient",E11.9,CLMWVZNVKSP2E,PAID,True
+MBR634806607,a51d36b8-a83c-4061-b44e-d2419482ff88,2025-02-15,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",M54.5,CLMI7P5TB9487,PAID,True
+MBR634806607,c5258ffa-3295-4019-8ecd-2b592eedfc39,2024-12-24,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",I10,CLM56FAO72KZ0,PAID,True
+MBR634806607,ad6f520b-981a-4573-aa70-9d08e2b7b4af,2024-11-14,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLM5O7UUBCXUL,PAID,True
+MBR634806607,48654173-2aef-483b-9303-dad2bb2d8b39,2022-03-15,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",E11.9,CLMHC0CLBR7TC,PAID,True
+MBR634806607,02d4aab7-c3c7-422d-ad73-896263297f83,2022-02-27,Primary Care,Office,99203,"Office/outpatient visit, new patient",E11.9,CLMOYKL1CQ99C,PAID,True
+MBR657553918,66f58429-be4c-434c-afb8-841a8ca7471f,2025-08-22,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMPT11F9I6UU,PAID,True
+MBR657553918,0c95cc05-2981-4ed6-8c77-664cec1129af,2025-04-01,Emergency,ER,99284,Emergency department visit,M54.5,CLMT0IAAKYTT3,DENIED,False
+MBR657553918,997dcc3c-a5c5-4639-9d19-6baf33566613,2025-02-25,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLM8N6Q7NC85E,DENIED,False
+MBR657553918,abf8705a-2918-4f1e-9373-76a79672588f,2024-02-12,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,I10,CLM9SOJUV0GYU,PAID,True
+MBR657553918,beb557e6-14e9-4119-bfa0-3fea90fbc2cc,2024-01-28,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLMHUDS3QSQCQ,PAID,True
+MBR657553918,e6b83be3-9f32-48e1-9c76-0f6930492492,2023-12-25,Primary Care,Office,99203,"Office/outpatient visit, new patient",J06.9,CLMLOFN1R4KZ3,PAID,True
+MBR657553918,f0073a9d-46b9-43aa-8ec9-76aabfd0331e,2023-12-22,Primary Care,Office,99213,"Office/outpatient visit, established patient",R07.9,CLM1BXW76ICVQ,PAID,True
+MBR657553918,e9f9352d-197f-43e5-818c-21bf16f05b5e,2022-10-05,Emergency,ER,A0429,"Ambulance service, basic life support",J06.9,CLMTNJLCQNT3B,DENIED,False
+MBR657553918,f1466b13-f605-48d5-888f-14933d8759b7,2022-07-10,Primary Care,Office,99203,"Office/outpatient visit, new patient",Z00.00,CLMG10UR5L8A7,PAID,True
+MBR657553918,88bf7de6-0721-4981-bff8-689560965464,2021-11-09,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",Z00.00,CLM0UBMC97C7B,PAID,True
+MBR666125292,0e6d0af0-2d59-4cba-bbc3-da22e12b52f6,2025-02-28,Specialist,Clinic,93010,ECG interpretation/report only,I10,CLM3L0XZAMKYG,PAID,True
+MBR666125292,e627eeb7-85a8-421b-845e-d53bc487edfb,2024-04-20,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",Z00.00,CLM6DUT076G5G,PAID,True
+MBR666125292,04d92b40-ed10-43d1-b069-5a69241802ce,2024-04-04,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",I10,CLM8RQ9NZ6123,PAID,True
+MBR666125292,0bad6be3-670b-4958-a90b-9852b55de8b2,2023-12-21,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",R07.9,CLMRHT7ZEWVIY,PAID,True
+MBR666125292,e209c779-f74c-479d-ab5d-132abb17bebb,2023-12-16,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLMJEYN9382KK,PENDING,True
+MBR666125292,6ef28621-d431-48c9-a12c-81a02bb79211,2023-09-08,Emergency,ER,A0429,"Ambulance service, basic life support",R07.9,CLM875AUD9K9T,PAID,False
+MBR666125292,ee0c83a9-5ce6-4874-a72a-925b7e72982d,2022-08-25,Primary Care,Office,99203,"Office/outpatient visit, new patient",E11.9,CLMXYCELOS6ZL,PAID,True
+MBR666125292,959b3230-b9ab-44cb-839b-25b89ed402e0,2022-05-03,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMLRYE89FX5R,PAID,True
+MBR666125292,558fc94e-5954-4aa0-a8c7-d0dad8dff93d,2022-05-01,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",J06.9,CLMLOD9R7ANQJ,PENDING,True
+MBR697251361,0e913f33-255d-4323-80af-ea5183f44fbc,2025-06-01,Emergency,ER,A0425,"Ambulance service, mileage",R07.9,CLM5QJICJDAN0,PAID,False
+MBR697251361,d482a393-2dda-4732-b815-6a06fded8e9d,2025-04-29,Primary Care,Office,99213,"Office/outpatient visit, established patient",M54.5,CLMFC79M96ZPX,PAID,True
+MBR697251361,d498747f-4483-482a-bd57-edb2860cd958,2025-01-19,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",M54.5,CLMD3WRDHW9RE,PAID,True
+MBR697251361,591ab509-f7a4-4f74-bb17-6c48d5f7c38b,2023-08-05,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMTDR5XYFC4K,PENDING,True
+MBR697251361,e2f800ce-bedf-4a5d-9aba-20846f304b15,2023-06-24,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMHGZZ0JKIBU,PAID,True
+MBR697251361,c25823d4-56f7-4659-a562-a9bf5fbd4dc9,2023-04-10,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",E11.9,CLMDTG5NQJQIJ,PENDING,True
+MBR697251361,db1fc739-7698-4af4-a71c-45e40eeeff10,2022-09-24,Emergency,ER,99284,Emergency department visit,E11.9,CLM78HU7F0I9G,PAID,True
+MBR697251361,4657de05-adc4-4792-8816-8e906371c6d1,2022-01-03,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLMMT8VT43PT5,PAID,True
+MBR706809149,503c14ac-e3ea-4f2e-8227-a81c73e72a72,2025-05-19,Primary Care,Office,99213,"Office/outpatient visit, established patient",Z00.00,CLMEIYAZ39PEC,PAID,True
+MBR706809149,63978c35-dfec-4082-91f5-8ebe56aee74a,2025-05-04,Primary Care,Office,99213,"Office/outpatient visit, established patient",E11.9,CLME11E9FTAXP,PAID,True
+MBR706809149,7a2e3022-e9b2-4ea1-9aab-cc47ff7f1ba1,2024-03-21,Emergency,ER,99284,Emergency department visit,E11.9,CLMDMCXXBW01P,PENDING,True
+MBR706809149,17702455-78fe-4367-b86e-f151fc870b54,2022-05-23,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,J06.9,CLMY4DD1VN8LF,PENDING,True
+MBR751214109,a9441a1b-7a2e-414b-94da-ae06b5c40fd0,2025-02-07,Telehealth,Telehealth,99213,"Office/outpatient visit, established patient",M54.5,CLMSBELRQVSLW,PAID,True
+MBR751214109,bdde8d14-ded9-48ec-a0f3-745fb98d748a,2023-11-18,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLMS1K9YE9O2M,PAID,False
+MBR751214109,e42351b1-bcf3-4e44-b700-f8968dd09f3d,2023-02-20,Primary Care,Office,99203,"Office/outpatient visit, new patient",R07.9,CLMYKADEJNOBB,PENDING,True
+MBR751214109,d12747f1-abc6-49f5-acdc-ae214cd16c8a,2022-09-03,Urgent Care,UrgentCare,85025,Complete blood count (CBC),I10,CLMRSRLA8S8HM,PAID,True
+MBR755335802,3e01de6a-8f39-4819-adda-2571eef664bb,2025-05-23,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",J06.9,CLMTA7YPP5ZP7,PAID,True
+MBR755335802,7efc266c-d5b9-49a8-a745-7a942e203045,2025-02-02,Emergency,ER,99284,Emergency department visit,I10,CLMSO8W5038HV,PAID,True
+MBR755335802,423c222a-ea2c-4852-bc1f-a962bd4499dd,2023-12-24,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",J06.9,CLMA5PISKFFV3,PENDING,True
+MBR755335802,4df6c371-6a71-4d56-b700-4c0b49320b78,2023-10-11,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",R07.9,CLM64UPJ16DVT,PAID,True
+MBR755335802,beb69eba-5a58-4a4d-8d04-7540120a3749,2023-10-02,Primary Care,Office,99213,"Office/outpatient visit, established patient",I10,CLMS6Y3VG6V5T,PAID,True
+MBR755335802,fc099225-107c-4dda-a0f6-86cde2b84bad,2023-08-03,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",M54.5,CLMYRVXOIEVES,PAID,True
+MBR755335802,22892638-34aa-4b5d-abf8-257841b7282e,2023-03-19,Specialist,Clinic,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMV23GXJ0MQV,PAID,True
+MBR780964638,ca1a1e5f-e092-43c1-ae65-52c85cdd9c1b,2025-10-02,Primary Care,Office,99213,"Office/outpatient visit, established patient",R07.9,CLM1JHUWB6TXK,PAID,True
+MBR780964638,c01f520a-af02-4539-81aa-7b400366c646,2025-03-10,Urgent Care,UrgentCare,71046,"Chest X-ray, 2 views",Z00.00,CLM3SKF7I8SKC,PAID,True
+MBR780964638,a26d386e-d5cb-4ce2-b5e1-96b28d862437,2022-10-28,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMWDXVUGW6M7,PAID,True
+MBR780964638,376c63d0-155f-402e-ab47-9d68478576e0,2022-01-27,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMYFOQMF5L9M,PAID,True
+MBR795211210,28af3f67-c36e-42a4-bed9-4f076852f402,2025-07-19,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMWBFUK9E1V2,PAID,True
+MBR795211210,716705aa-ce88-49eb-997d-26801db45dd4,2022-10-23,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",I10,CLMW1DAKRM8J5,PAID,True
+MBR810967485,1eaded7e-6392-4b0f-bc05-62b2e7c17cae,2024-01-22,Primary Care,Office,99203,"Office/outpatient visit, new patient",Z00.00,CLMHP6VZ41NAM,PAID,True
+MBR810967485,b03f7bd0-4e9c-41d8-ae5d-df9d666c7ffe,2023-07-25,Urgent Care,UrgentCare,80053,Comprehensive metabolic panel,E11.9,CLMPBMYOFQEWA,PAID,True
+MBR810967485,fd1d36d1-8fed-4111-abd1-4e12964a2dc8,2022-12-28,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",E11.9,CLMPZIM6CFNFH,PAID,True
+MBR810967485,2a76e431-f68d-400c-b724-98373b5c56a4,2022-10-12,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLMWZS3T60RJI,PAID,True
+MBR810967485,0242d8cb-cf81-477f-9bd9-49400b9c8e33,2022-01-21,Primary Care,Office,99213,"Office/outpatient visit, established patient",Z00.00,CLM2H2ZQU7EEQ,PENDING,True
+MBR840975986,40c96318-15b1-4e90-8041-9e6dd386e2b2,2025-09-23,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMZJ3SWEBNVG,PAID,True
+MBR840975986,57409b5b-eb37-4d99-8301-5abcfe34e969,2025-05-08,Telehealth,Telehealth,99213,"Office/outpatient visit, established patient",Z00.00,CLM2555JXURGO,PAID,True
+MBR840975986,799507ed-eab3-460d-973f-52f0b0317467,2024-12-22,Primary Care,Office,99213,"Office/outpatient visit, established patient",I10,CLMBCYH3FVL03,PENDING,True
+MBR840975986,17b93c4d-a0d8-450f-9129-dd54c7f65d97,2024-10-02,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",J06.9,CLMA21A6XVAJ2,PAID,True
+MBR840975986,6b6bb0c8-5fd2-4916-b15b-8dd3d2cd4855,2023-01-07,Urgent Care,UrgentCare,85025,Complete blood count (CBC),J06.9,CLM2CZO2SUG5H,PENDING,True
+MBR840975986,2f48e660-8343-4974-a21c-264a536cf169,2022-10-17,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",E11.9,CLMS7AZV2EFUU,PAID,True
+MBR840975986,a2bbc354-c15f-4f5d-b86d-44cfbbcfce1c,2022-08-16,Emergency,ER,A0425,"Ambulance service, mileage",I10,CLM4J3DAB42HH,PAID,False
+MBR840975986,7980fa03-8d83-4e3b-95fc-3d93fc838a2c,2022-02-04,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLM6LI076A3KK,PAID,False
+MBR840975986,1e97bb0d-7bbe-4367-8faf-ee63368d5532,2022-01-04,Specialist,Clinic,93010,ECG interpretation/report only,I10,CLME9P3JPXGH3,PAID,False
+MBR851882729,01d72465-90c3-4e12-87d6-292302aeb50c,2025-09-12,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",M54.5,CLMZEZQACJ4T0,PENDING,True
+MBR851882729,1b545848-8ade-4520-ba7c-53c78ce8e96c,2025-04-16,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",Z00.00,CLMBP2QD6VASI,PAID,True
+MBR851882729,0f67e14f-9ddc-4ee1-a505-c8041144a23d,2024-09-01,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",Z00.00,CLMOONNCILDZM,PENDING,True
+MBR879735495,277b07d5-dac0-4ac2-b0ec-eb9f772910dd,2025-08-07,Emergency,ER,99284,Emergency department visit,M54.5,CLMM44GV3Z6BZ,PAID,True
+MBR879735495,452bd96a-5a14-48ff-87e6-216b1ac3f4b9,2024-09-07,Primary Care,Office,99213,"Office/outpatient visit, established patient",E11.9,CLMC9T199DXJ3,PENDING,True
+MBR964332468,58f8bb2e-1b35-4c74-891f-02d81829f110,2025-01-26,Primary Care,Office,99203,"Office/outpatient visit, new patient",Z00.00,CLM22VXYZX9JP,PENDING,True
+MBR964332468,805a7916-265f-4360-be7e-a30c26cfd66b,2022-03-14,Specialist,Clinic,93000,"Electrocardiogram, routine ECG",J06.9,CLMVKDC9X5JZ6,PAID,True
+MBR972385728,1ffe654d-0eb3-413c-83f6-03966b6cdbd0,2023-04-09,Urgent Care,UrgentCare,99213,"Office/outpatient visit, established patient",J06.9,CLMHLXSLG6MM1,PAID,True
+MBR972385728,fed5ba75-5fcd-4ec9-b801-77adc556a60a,2022-08-22,Telehealth,Telehealth,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLM5WVJX8UIBR,PENDING,True
+MBR972385728,be40a2f6-59d4-416c-add4-95ed5f3518a9,2021-11-14,Specialist,Clinic,93010,ECG interpretation/report only,M54.5,CLMFYB8DALFYO,PENDING,True
+MBR995413982,17bfe386-573f-401c-856e-9c8301259611,2025-07-14,Primary Care,Office,99213,"Office/outpatient visit, established patient",Z00.00,CLMSKRT05UIRO,PENDING,True
+MBR995413982,f95dda41-0638-4d84-ba31-957dd3c058d5,2024-03-01,Primary Care,Office,99214,"Office/outpatient visit, established patient (moderate)",R07.9,CLMN6QICATVAZ,DENIED,False
+MBR995413982,09c023c6-ea08-400c-b170-593c2686e6a2,2023-03-10,Primary Care,Office,99213,"Office/outpatient visit, established patient",J06.9,CLM1ERTJ5PHT0,DENIED,False

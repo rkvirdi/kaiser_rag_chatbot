@@ -1,0 +1,98 @@
+plan_id,plan_name,procedure_code,procedure_name
+EPO_CORE,EPO Core,36415,Venipuncture
+EPO_CORE,EPO Core,71046,"Chest X-ray, 2 views"
+EPO_CORE,EPO Core,77067,Screening mammography
+EPO_CORE,EPO Core,80053,Comprehensive metabolic panel
+EPO_CORE,EPO Core,80061,Lipid panel
+EPO_CORE,EPO Core,85025,Complete blood count (CBC)
+EPO_CORE,EPO Core,90686,Influenza vaccine
+EPO_CORE,EPO Core,90715,Tdap vaccine
+EPO_CORE,EPO Core,93000,"Electrocardiogram, routine ECG"
+EPO_CORE,EPO Core,93010,ECG interpretation/report only
+EPO_CORE,EPO Core,99203,"Office/outpatient visit, new patient"
+EPO_CORE,EPO Core,99213,"Office/outpatient visit, established patient"
+EPO_CORE,EPO Core,99214,"Office/outpatient visit, established patient (moderate)"
+EPO_CORE,EPO Core,99284,Emergency department visit
+HDHP_GOLD,HDHP Gold (HSA Eligible),36415,Venipuncture
+HDHP_GOLD,HDHP Gold (HSA Eligible),45378,Diagnostic colonoscopy
+HDHP_GOLD,HDHP Gold (HSA Eligible),71046,"Chest X-ray, 2 views"
+HDHP_GOLD,HDHP Gold (HSA Eligible),77067,Screening mammography
+HDHP_GOLD,HDHP Gold (HSA Eligible),80053,Comprehensive metabolic panel
+HDHP_GOLD,HDHP Gold (HSA Eligible),80061,Lipid panel
+HDHP_GOLD,HDHP Gold (HSA Eligible),85025,Complete blood count (CBC)
+HDHP_GOLD,HDHP Gold (HSA Eligible),90686,Influenza vaccine
+HDHP_GOLD,HDHP Gold (HSA Eligible),90715,Tdap vaccine
+HDHP_GOLD,HDHP Gold (HSA Eligible),93000,"Electrocardiogram, routine ECG"
+HDHP_GOLD,HDHP Gold (HSA Eligible),99203,"Office/outpatient visit, new patient"
+HDHP_GOLD,HDHP Gold (HSA Eligible),99213,"Office/outpatient visit, established patient"
+HDHP_GOLD,HDHP Gold (HSA Eligible),99214,"Office/outpatient visit, established patient (moderate)"
+HDHP_GOLD,HDHP Gold (HSA Eligible),99284,Emergency department visit
+HDHP_GOLD,HDHP Gold (HSA Eligible),A0425,"Ambulance service, mileage"
+HDHP_GOLD,HDHP Gold (HSA Eligible),A0429,"Ambulance service, basic life support"
+HMO_SILVER,HMO Silver,36415,Venipuncture
+HMO_SILVER,HMO Silver,77067,Screening mammography
+HMO_SILVER,HMO Silver,80053,Comprehensive metabolic panel
+HMO_SILVER,HMO Silver,80061,Lipid panel
+HMO_SILVER,HMO Silver,85025,Complete blood count (CBC)
+HMO_SILVER,HMO Silver,90686,Influenza vaccine
+HMO_SILVER,HMO Silver,90715,Tdap vaccine
+HMO_SILVER,HMO Silver,99203,"Office/outpatient visit, new patient"
+HMO_SILVER,HMO Silver,99213,"Office/outpatient visit, established patient"
+HMO_SILVER,HMO Silver,99214,"Office/outpatient visit, established patient (moderate)"
+HMO_SILVER,HMO Silver,99284,Emergency department visit
+MEDICARE_ADV,Medicare Advantage (Mock),36415,Venipuncture
+MEDICARE_ADV,Medicare Advantage (Mock),45378,Diagnostic colonoscopy
+MEDICARE_ADV,Medicare Advantage (Mock),71046,"Chest X-ray, 2 views"
+MEDICARE_ADV,Medicare Advantage (Mock),73502,"X-ray, hip"
+MEDICARE_ADV,Medicare Advantage (Mock),77067,Screening mammography
+MEDICARE_ADV,Medicare Advantage (Mock),80053,Comprehensive metabolic panel
+MEDICARE_ADV,Medicare Advantage (Mock),80061,Lipid panel
+MEDICARE_ADV,Medicare Advantage (Mock),85025,Complete blood count (CBC)
+MEDICARE_ADV,Medicare Advantage (Mock),90686,Influenza vaccine
+MEDICARE_ADV,Medicare Advantage (Mock),90715,Tdap vaccine
+MEDICARE_ADV,Medicare Advantage (Mock),93000,"Electrocardiogram, routine ECG"
+MEDICARE_ADV,Medicare Advantage (Mock),93010,ECG interpretation/report only
+MEDICARE_ADV,Medicare Advantage (Mock),99203,"Office/outpatient visit, new patient"
+MEDICARE_ADV,Medicare Advantage (Mock),99213,"Office/outpatient visit, established patient"
+MEDICARE_ADV,Medicare Advantage (Mock),99214,"Office/outpatient visit, established patient (moderate)"
+MEDICARE_ADV,Medicare Advantage (Mock),99284,Emergency department visit
+MEDICARE_ADV,Medicare Advantage (Mock),G0402,Welcome to Medicare preventive visit
+PPO_BASIC,PPO Basic,36415,Venipuncture
+PPO_BASIC,PPO Basic,45378,Diagnostic colonoscopy
+PPO_BASIC,PPO Basic,71046,"Chest X-ray, 2 views"
+PPO_BASIC,PPO Basic,73502,"X-ray, hip"
+PPO_BASIC,PPO Basic,77067,Screening mammography
+PPO_BASIC,PPO Basic,80053,Comprehensive metabolic panel
+PPO_BASIC,PPO Basic,80061,Lipid panel
+PPO_BASIC,PPO Basic,85025,Complete blood count (CBC)
+PPO_BASIC,PPO Basic,90686,Influenza vaccine
+PPO_BASIC,PPO Basic,90715,Tdap vaccine
+PPO_BASIC,PPO Basic,93000,"Electrocardiogram, routine ECG"
+PPO_BASIC,PPO Basic,93010,ECG interpretation/report only
+PPO_BASIC,PPO Basic,99203,"Office/outpatient visit, new patient"
+PPO_BASIC,PPO Basic,99213,"Office/outpatient visit, established patient"
+PPO_BASIC,PPO Basic,99214,"Office/outpatient visit, established patient (moderate)"
+PPO_BASIC,PPO Basic,99284,Emergency department visit
+PPO_BASIC,PPO Basic,A0425,"Ambulance service, mileage"
+PPO_BASIC,PPO Basic,A0429,"Ambulance service, basic life support"
+PPO_BASIC,PPO Basic,J3490,Unclassified drugs (HCPCS)
+PPO_PLUS,PPO Plus,36415,Venipuncture
+PPO_PLUS,PPO Plus,45378,Diagnostic colonoscopy
+PPO_PLUS,PPO Plus,71046,"Chest X-ray, 2 views"
+PPO_PLUS,PPO Plus,73502,"X-ray, hip"
+PPO_PLUS,PPO Plus,77067,Screening mammography
+PPO_PLUS,PPO Plus,80053,Comprehensive metabolic panel
+PPO_PLUS,PPO Plus,80061,Lipid panel
+PPO_PLUS,PPO Plus,85025,Complete blood count (CBC)
+PPO_PLUS,PPO Plus,90686,Influenza vaccine
+PPO_PLUS,PPO Plus,90715,Tdap vaccine
+PPO_PLUS,PPO Plus,93000,"Electrocardiogram, routine ECG"
+PPO_PLUS,PPO Plus,93010,ECG interpretation/report only
+PPO_PLUS,PPO Plus,99203,"Office/outpatient visit, new patient"
+PPO_PLUS,PPO Plus,99213,"Office/outpatient visit, established patient"
+PPO_PLUS,PPO Plus,99214,"Office/outpatient visit, established patient (moderate)"
+PPO_PLUS,PPO Plus,99284,Emergency department visit
+PPO_PLUS,PPO Plus,A0425,"Ambulance service, mileage"
+PPO_PLUS,PPO Plus,A0429,"Ambulance service, basic life support"
+PPO_PLUS,PPO Plus,G0402,Welcome to Medicare preventive visit
+PPO_PLUS,PPO Plus,J3490,Unclassified drugs (HCPCS)
