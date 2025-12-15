@@ -43,7 +43,7 @@ def infer_doc_type(path: Path) -> str:
     parts = [part.lower() for part in path.parts]
     if "compliance" in parts:
         return "compliance"
-    if "policy" in parts:
+    if "policies" in parts:
         return "benefit_policy"
     return "generic"
 
