@@ -1,8 +1,9 @@
-myenv
+myenv/
 notebooks/
 data/
+backend/data/
 *.pyc
 __pycache__/
-.env
+.env/
 .hf_cache/
 .vscode/
