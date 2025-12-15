@@ -4,3 +4,5 @@ data/
 *.pyc
 __pycache__/
 .env
+.hf_cache/
+.vscode/
