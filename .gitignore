@@ -1,6 +1,6 @@
 myenv/
 notebooks/
-data/
+
 backend/data/
 *.pyc
 __pycache__/
